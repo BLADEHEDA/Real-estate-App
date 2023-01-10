@@ -5,6 +5,12 @@
 }
 
 @media only screen and (min-width:1px){
+  .mobile{
+    display: flex;
+  }
+  .desktop{
+    display: none;
+  }
   .nav-brand{
     color: #00B98E ;
   }
@@ -49,7 +55,44 @@
 
 }
 @media only screen and (min-width:991px){
+  .desktop{
+    display: flex;
+  }
+  .mobile{
+    display: none;
+  }
   .nav-brand{
     color: #00B98E ;
   }
+  .navlinks{
+    margin-left: 1.5em;;
+    font-size: 0.9em;
+  }
+  .options{
+    padding-left: 0em;
+  }
+  .options1,.options2{
+    padding-left: 0em;
+    width: 9em;
+    padding: 0.5em 1em;
+    position: fixed;
+    color: #212529;
+    border: solid 1px grey;
+  }
+  .option{
+    padding-top: 0.3em;
+  }
+  .navlinks:hover{
+    color: #00B98E ;
+  }
+  .button{
+background: #00B98E ;
+color: white;
+padding:0.3em 1em;
+border-radius: 5px;
+margin-top: -30px;
+  }
+.button:hover{
+  background :#189d7e ;
+}
 }

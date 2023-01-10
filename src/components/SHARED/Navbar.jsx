@@ -25,10 +25,14 @@ const Navbar = () => {
     setshow2(!show2);
     setshow1();
   }
-
+  const removeHover=()=>{
+    setshow1();
+    setshow2();
+  }
+  // onMouseLeave={removeHover}
   return (
     <div>
-        <nav className="navbar-mobile px-5 py-3 flex justify-between">
+        <nav className="navbar-mobile mobile px-5 py-3 flex justify-between">
             <nav className="left flex">
                 <div className="nav-logos"><img src={icon} alt="navlogo" className="nav-logo p-1" /> </div>
                 <nav className="nav-brand text-4xl font-black ml-2 mt-0">MaKaan </nav>
@@ -42,7 +46,7 @@ const Navbar = () => {
                   <div className="ptoptertes flex" onClick={toggleshow1}  >
                     <div className="propname" >PROPERTIES</div>
                     <div className="propimage"><img src={arrowdown} alt="arrow down icon"className={`dropdown ${rotate}`} /> </div> 
-                  </div
+                  </div>
                   <ul className={`options ${display1}`}>
                     <li className="option">property list</li>
                     <li className="option">Property Type</li>
@@ -67,7 +71,44 @@ const Navbar = () => {
                </nav>
           
         </nav>
-        <nav className="navbar-desktop "> </nav>
+        <nav className="navbar-desktop px-5 py-3 flex justify-between desktop">
+        <nav className="left flex">
+                <div className="nav-logos"><img src={icon} alt="navlogo" className="nav-logo p-1" /> </div>
+                <nav className="nav-brand text-4xl font-black ml-2 mt-0">MaKaan </nav>
+            </nav>  
+    
+           <nav className="right">
+               <ul className={`shown-nav  pt-3  flex`}   >
+                <li className="navlinks">HOME</li>
+                <li className="navlinks">ABOUT</li>
+                <li className="navlinks">
+                  <div className="ptoptertes flex" onMouseEnter={toggleshow1} onMouseLeave={removeHover} >
+                    <div className="propname" >PROPERTIES</div>
+                    <div className="propimage"><img src={arrowdown} alt="arrow down icon"className={`dropdown `} /> </div> 
+                  </div>
+                  <ul className={`options options1 ${display1}`}>
+                    <li className="option">property list</li>
+                    <li className="option">Property Type</li>
+                    <li className="option">property Agent</li>
+                  </ul> 
+                </li>  
+           
+                <li className="navlinks"> 
+                  <div className="ptoptertes flex" onMouseEnter={toggleshow2} onMouseLeave={removeHover} >
+                    <div className="propname">PAGES</div>
+                    <div className="propimage"><img src={arrowdown} alt="arrow down icon" className={`dropdown`}  /> </div> 
+                  </div>
+                  
+                  <ul className={`options options2 ${display2}`}>
+                    <li className="option" onhov >Testimonial </li>
+                    <li className="option">404 Error</li>
+                  </ul>
+                </li> 
+                <li className="navlinks">CONTACT</li>
+                <li className="navlinks"> <button className='button'>Add Property</button> </li>  
+               </ul>
+               </nav>
+               </nav>
     </div>
   )
 }
