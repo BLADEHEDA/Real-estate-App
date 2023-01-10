@@ -17,6 +17,33 @@
   border: solid 1px rgba(0,0,0,0.1);;
   padding:0.7em
 }
+.dropdown{
+  width:0.75em;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.options{
+  font-weight: 300;
+  color: var(--dark);
+  padding-left: 1em;
+  display: none;
+}
+.hidden-nav{
+  position: absolute;
+  width: 100%;
+  left:1.5em;
+  border-top: solid 1px #00B98E ;
+  display: none;
+}
+.navlinks{
+  margin-bottom: 1em;
+  color: var(--dark);
+  font-weight: 500;
+}
+.show{
+  display: block;
+}
+
 }
 @media only screen and (min-width:991px){
   .nav-brand{
