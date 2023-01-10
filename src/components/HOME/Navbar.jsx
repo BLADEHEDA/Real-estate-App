@@ -7,8 +7,23 @@ const Navbar = () => {
   // the code below hudes and shows the divs 
   const[show , setshow] =useState();
   const display= show ? "show" : "hidden-nav";
+ 
   const toggleshow =()=>{
     setshow(!show);
+  }
+  const [show1,setshow1] =useState();
+  const display1 =show1 ? "show":"navlinks";
+  const rotate = show1 ? "arrow1":"";
+   const toggleshow1 =()=>{
+    setshow1(!show1);
+    setshow2();
+  }
+  const [show2,setshow2] =useState();
+  const display2 =show2 ? "show":"navlinks";
+  const rotate1 = show2 ? "arrow1":"";
+  const toggleshow2 =()=>{        
+    setshow2(!show2);
+    setshow1();
   }
 
   return (
@@ -24,25 +39,24 @@ const Navbar = () => {
                 <li className="navlinks">HOME</li>
                 <li className="navlinks">ABOUT</li>
                 <li className="navlinks">
-                  <div className="ptoptertes flex" >
+                  <div className="ptoptertes flex" onClick={toggleshow1}  >
                     <div className="propname" >PROPERTIES</div>
-                    <div className="propimage"><img src={arrowdown} alt="arrow down icon"className='dropdown' /> </div> 
-                  </div>
-                     {/* <ul className=  <ul className={`navlinks-mob ${display}`}>}> */}
-                  <ul className={`options`}>
+                    <div className="propimage"><img src={arrowdown} alt="arrow down icon"className={`dropdown ${rotate}`} /> </div> 
+                  </div
+                  <ul className={`options ${display1}`}>
                     <li className="option">property list</li>
                     <li className="option">Property Type</li>
                     <li className="option">property Agent</li>
-                  </ul>
+                  </ul> 
                 </li>  
            
                 <li className="navlinks">
-                  <div className="ptoptertes flex">
+                  <div className="ptoptertes flex" onClick={toggleshow2} >
                     <div className="propname">PAGES</div>
-                    <div className="propimage"><img src={arrowdown} alt="arrow down icon"className='dropdown' /> </div> 
+                    <div className="propimage"><img src={arrowdown} alt="arrow down icon" className={`dropdown ${rotate1}`}  /> </div> 
                   </div>
                   
-                  <ul className="options">
+                  <ul className={`options ${display2}`}>
                     <li className="option">Testimonial </li>
                     <li className="option">404 Error</li>
                   </ul>

@@ -18,9 +18,12 @@
   padding:0.7em
 }
 .dropdown{
-  width:0.75em;
+  width:0.7em;
   margin-top: 5px;
   margin-left: 5px;
+}
+.arrow1{
+  transform: rotate(180deg);
 }
 .options{
   font-weight: 300;
