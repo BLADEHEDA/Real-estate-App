@@ -1,0 +1,88 @@
+@media only screen and (min-width:1px){
+    .mainbar{
+        background: whitesmoke;
+    }
+    .main-title{
+        font-size: calc(1.505rem + 2vw);
+        font-weight: 900;
+        line-height: 1.2;
+        padding-right: 2em;
+        margin-bottom: 0.7em;
+    }
+    .main-span{
+        color: #00B98E;
+    }
+    .main-content{
+        line-height: 1.5; 
+        font-size: 1em;
+        padding-right:2.5em ;
+        margin-bottom: 2em;
+        color: #666565;
+    }
+    .btn-main{
+        width: 25%;
+    }
+    .mainbar-right{
+        padding-left: 0em;
+    }
+    .mainbar-left{
+        padding:3em  0em 3em 3em;
+    }
+    /* the lines below illustrates the styles of the formbar component */
+    .formbar{
+        background:   #00B98E ;
+        padding: 2em;
+    }
+    .input{
+        width: 75%;
+        margin:0 auto;
+        color: #666565;
+        background-color: #fff;
+        /* border: solid 1px black; */
+        margin-bottom: 0.6em;
+        border-radius: 5px;
+        padding: 1em 0.5em;
+    }
+    .btn-input{
+        padding: 0em;
+    }
+    .formbar-search{
+        width: 100%;
+    }
+    .formbar-search:focus{
+        outline: none;
+    }
+    .arrowdown{
+        width:14px;
+        margin-top: 0.25em;
+        margin-right:0.3em;
+    }
+
+}
+@media only screen and (min-width:768px){
+    .mainbar{
+        display: flex;
+        padding-left: 3em;
+    }
+    .mainbar-left{
+        flex: 50%;
+    }
+    .mainbar-right{
+        flex: 50%;
+    }
+    .main-title{
+        font-size: calc(1.305rem + 2vw);
+        padding-right: 2em;
+        margin-bottom: 0.4em;
+    }
+    .main-content{
+        line-height: 1.5; 
+        font-size: 0.9em;
+        padding-right:2em ;
+        margin-bottom: 2em;
+        color: #666565;
+    }
+    .btn-main{
+        width: 30%;
+    }
+}
