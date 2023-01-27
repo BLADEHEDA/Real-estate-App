@@ -53,35 +53,25 @@
     .formbar-search:focus{
         outline: none;
     }
-    .arrowdown{
-        width:14px;
-        margin-top: 0.25em;
-        margin-right:0.3em;
-    }
-   
     .location {
-        width: 69%;
+        width: 100%;
         color: #666565;
         background-color: #fff;
-        padding: 0.5em 0.7em;
-        /* position: absolute; */
+        padding: 1em 0.7em;
         left: 7.5em;
-        line-height: 1.7;
-        margin-top: -0.5em;
-        border: solid 1px black;
-        /* display: none; */
+        line-height: 1.7; 
+        border-radius: 5px;
+        border: none;
     }
-   .property{
-        width: 69%;
+    .location:focus{
+        outline: none;
+    }
+    .home-options{
+        width: 75%;
+        margin: 0 auto;
         color: #666565;
-        background-color: #fff;
-        border: solid 1px black;
-        padding: 0.5em 0.7em;
-        position: absolute;
-        left: 7.5em;
-        margin-top: -0.5em;
-        line-height: 1.7;
-        display: none;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
     }
 .show{
     display: block;
