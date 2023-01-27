@@ -32,6 +32,7 @@
     .formbar{
         background:   #00B98E ;
         padding: 2em;
+        margin-bottom: 5em;
     }
     .input{
         width: 75%;
@@ -41,7 +42,7 @@
         /* border: solid 1px black; */
         margin-bottom: 0.6em;
         border-radius: 5px;
-        padding: 1em 0.5em;
+        padding: 1em 0.7em;
     }
     .btn-input{
         padding: 0em;
@@ -57,6 +58,34 @@
         margin-top: 0.25em;
         margin-right:0.3em;
     }
+   
+    .location {
+        width: 69%;
+        color: #666565;
+        background-color: #fff;
+        padding: 0.5em 0.7em;
+        /* position: absolute; */
+        left: 7.5em;
+        line-height: 1.7;
+        margin-top: -0.5em;
+        border: solid 1px black;
+        /* display: none; */
+    }
+   .property{
+        width: 69%;
+        color: #666565;
+        background-color: #fff;
+        border: solid 1px black;
+        padding: 0.5em 0.7em;
+        position: absolute;
+        left: 7.5em;
+        margin-top: -0.5em;
+        line-height: 1.7;
+        display: none;
+    }
+.show{
+    display: block;
+}
 
 }
 @media only screen and (min-width:768px){
