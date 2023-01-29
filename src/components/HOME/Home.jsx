@@ -2,6 +2,7 @@ import React from 'react'
 import "./Home.css"
 import Mainbar from './Mainbar'
 import Formbar from './Formbar'
+import Ownership from './Ownership'
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
     <div className='Home'>
       <Mainbar/>
       <Formbar/>
+      <Ownership/>
     </div>
   )
 }

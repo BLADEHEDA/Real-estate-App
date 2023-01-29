@@ -4,6 +4,8 @@ import arrowdown from "../../images/icons8-down-24.png"
 import Button from '../SHARED/Button'
 import "./Home.css"
 
+
+
 const Formbar = () => {
                
   return (
@@ -32,21 +34,11 @@ const Formbar = () => {
              padding: "1em 0.5em",borderRadius:"5px"}} / >  
             </div>
       
-            <div className="properties-section">
-            <h1 className="properties-title">Property Types</h1>
-            <p className="properties-content"> Get a variety of options as wild as the  imagination of your dream
-             apppartment could be , we got you covered with first class appartments all over the world at affordable prices    </p>
-            </div>
-              <section>
-              <div className="properties-div"></div>
-              <div className="properties-div"></div>
-              <div className="properties-div"></div>
-              <div className="properties-div"></div>
-              <div className="properties-div"></div>
-              <div className="properties-div"></div>
-              <div className="properties-div"></div>
-              <div className="properties-div"></div>
-              </section>
+           
+            
+          
+            
+         
     </div>
   )
 }
