@@ -32,7 +32,7 @@
     .formbar{
         background:   #00B98E ;
         padding: 2em;
-        margin-bottom: 7em;
+        margin-bottom: 5em;
     }
     .input{
         width: 75%;
@@ -73,9 +73,72 @@
         margin-top: 0.5em;
         margin-bottom: 0.5em;
     }
+/* The lines thatfollow are the styles for thr ownership component */
+.ownaership{
+
+    padding:0em 5em;
+}
+.properties-section{
+    text-align: center;
+}
+.properties-title{
+    color: #0E2E50;
+    font-size: 3em;
+    font-weight:500;
+}
+.properties-content{
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+}
+.property-prop{
+    background:#e8f9fc;;
+    margin: 1em;
+    padding: 1em;
+} 
+.property-card{
+    border:dashed 1px #00B98E ; 
+    background:white;
+    padding: 1.5em 0em;
+    border-radius: 7px;
+    margin: auto;
+}
+.property-card:hover {
+background: #00B98E;;
+}
+.property-image-div{
+ border:dashed 1px #00B98E ; 
+ border-radius: 50%;
+ width: 4.8em;
+ padding: 1em;
+ margin: 0 auto;
+ background: white;
+}
+.property-title-div{
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 0.6em;
+   
+}
+.property-count-div{
+    margin: 0 auto;
+ text-align: center;
+ margin-top: 0.3em;
+color: #00B98E;;
+ 
+}
+.properties{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin:2em 0em;
+}
+
+
 .show{
     display: block;
 }
+
 
 }
 @media only screen and (min-width:768px){
