@@ -3,6 +3,7 @@ import "./Home.css"
 import Mainbar from './Mainbar'
 import Formbar from './Formbar'
 import Ownership from './Ownership'
+import Place from './Place'
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <Mainbar/>
       <Formbar/>
       <Ownership/>
+      <Place/>
     </div>
   )
 }
