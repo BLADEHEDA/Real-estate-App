@@ -38,8 +38,7 @@
         width: 75%;
         margin:0 auto;
         color: #666565;
-        background-color: #fff;
-        /* border: solid 1px black; */
+        background-color: #fff; 
         margin-bottom: 0.6em;
         border-radius: 5px;
         padding: 1em 0.7em;
@@ -54,27 +53,25 @@
         outline: none;
     }
     .location {
-        width: 100%;
         color: #666565;
         background-color: #fff;
-        padding: 1em 0.7em;
         line-height: 1.7; 
         border-radius: 5px;
         border: none;
-        border: solid 1px black;
+        width: 100%;
+   
     }
     .location:focus{
         outline: none;
     }
-    .home-options{
+    .home-options{ 
         width: 75%;
-        margin: 0 auto;
+        margin:0 auto;
         color: #666565;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-        border: solid 1px black;
-        padding:0;
-        box-sizing: border-box;
+        background-color: #fff; 
+        margin-bottom: 0.6em;
+        border-radius: 5px;
+        padding: 1em 0.7em;
     }
 /* The lines thatfollow are the styles for thr ownership component */
 .ownaership,.listing{
