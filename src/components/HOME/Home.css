@@ -58,10 +58,10 @@
         color: #666565;
         background-color: #fff;
         padding: 1em 0.7em;
-        left: 7.5em;
         line-height: 1.7; 
         border-radius: 5px;
         border: none;
+        border: solid 1px black;
     }
     .location:focus{
         outline: none;
@@ -72,10 +72,13 @@
         color: #666565;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
+        border: solid 1px black;
+        padding:0;
+        box-sizing: border-box;
     }
 /* The lines thatfollow are the styles for thr ownership component */
 .ownaership,.listing{
-  margin:0em 5em;
+  margin:0em 7em;
 }
 .properties-section{
     text-align: center;
@@ -92,7 +95,7 @@
 }
 .property-prop{
     background:#e8f9fc;;
-    margin: 1em;
+    margin: 0.5em;
     padding: 1em;
 } 
 .property-card{
@@ -103,7 +106,7 @@
     margin: auto;
 }
 .property-card:hover {
-background: #00B98E;;
+background: #00B98E;
 }
 .property-image-div{
  border:dashed 1px #00B98E ; 
@@ -134,10 +137,10 @@ color: #00B98E;
 }
 /* the lines thatfollow are the styles for the places component  */
 .place{
- margin:0em 5em;       
+    margin:0em 7em;      
 }
 .place-left{
-background: linear-gradient(90deg, #00B98E 0%, white 51%, white 51%, white 0%);
+background: linear-gradient(90deg, #00B98E 0%, rgb(255, 255, 255) 51%, rgb(251, 251, 251) 51%, rgb(249, 246, 246) 0%);
 padding: 3em;
 }
 .list{
@@ -164,9 +167,83 @@ padding: 3em;
 }
 .place-btn{
     width: 30%;
-    margin: 2em 0em;
-    
+    margin: 2em 0em;   
 }
+/* the lines thatfollow are the styles for the listing component  */
+.listing-header{
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    color: #0E2E50;
+}
+.listing-content{
+    margin: 0.7em 0em 3em 0em;
+    color: #0E2E50;
+}
+.list-nature{
+    background: #00B98E;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 5px;
+    width: 16%;
+    position: relative;
+    bottom:21em;
+    left: 1.5em;
+}
+.list-type{
+   color:#00B98E; 
+   background: white;
+   border-radius: 5px;
+   padding: 0.3rem 0.75rem;
+   width: 20%;
+   position: relative;
+   bottom:3.5em;
+   left: 1.5em;
+   text-align: center;
+}
+.list-price{
+    color:#00B98E; 
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: -2em 0em 0.5em 1em;
+}
+.list-name{
+    font-size: 1.2em;
+    font-weight: 600; 
+    margin: 0em 0em 0em 1em;
+}
+.location-img{
+    width: 1em;
+    margin-top: 2px;
+    margin-right: 8px;
+}
+.location{
+    margin-left: 8px;
+    margin-top: -0.5em;
+}
+.list-equipments{
+   margin: 0em 2em 2em 2em;
+}
+.area-img {
+    height: 23px;
+}
+.list-vutton{
+    border: solid 1px black;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 7em;
+}
+
+
+
+
+
+
+
+
+
+
+
 .show{
     display: block;
 }

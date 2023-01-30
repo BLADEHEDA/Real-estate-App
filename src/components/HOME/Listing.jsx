@@ -1,6 +1,10 @@
 import { type } from '@testing-library/user-event/dist/type'
 import React from 'react'
 import Button from '../SHARED/Button'
+import mappin from "../../images/map-pin.png"
+import bedroom from "../../images/icons8-occupied-bed-24.png"
+import bathing  from "../../images/icons8-bath-light-24.png"
+import ruler from  "../../images/icons8-ruler-combined-32.png"
 
 const Listing = () => {
     // define the object to be use 
@@ -86,18 +90,52 @@ const Listing = () => {
         <div className="listing-content">Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut
          dolore lorem kasd vero ipsum sit eirmod sit diam justo sed rebum.</div>
       </div>
-      <div   className="listing-buttons flex " > 
-      <div className="buttons mr-2">
-      <Button style={{width:"100%",borderRadius:"5px",padding:"5px 8px", 
-      color:"white" }} title="Features" /> </div>
-      <div className="buttons mr-2">
-      <Button style={{width:"100%",borderRadius:"5px",padding:"5px 12px", 
-      color:"black",background:"white" ,border:"solid 1px #00B98E" }} title="For Sell" /> </div>
-      <div className="buttons mr-2">
-      <Button style={{width:"100%",borderRadius:"5px",padding:"5px 8px", 
-      color:"black",background:"white",border:"solid 1px #00B98E" }} title="For Rent" /> </div>
-
+      <div   className="listing-buttons flex mb-10 " > 
+          <div className="buttons mr-2">
+              <Button style={{width:"100%",borderRadius:"5px",padding:"5px 8px", 
+              color:"white" }} title="Features" /> </div>
+          <div className="buttons mr-2">
+              <Button style={{width:"100%",borderRadius:"5px",padding:"5px 12px", 
+              color:"black",background:"white" ,border:"solid 1px #00B98E" }} title="For Sell" /> </div>
+          <div className="buttons mr-2">
+              <Button style={{width:"100%",borderRadius:"5px",padding:"5px 8px", 
+              color:"black",background:"white",border:"solid 1px #00B98E" }} title="For Rent" /> </div>
       </div>
+      <div className="listing-properties">
+     {properties.map(property=>{
+      const {img , nature,type,price,mame,location,area,bed,bath} = property;
+    return(
+      <section className="list-property">
+      <div className="listimg"> <img src={img} alt="appartmwnt" className="list-img" /> </div>
+      <div className="list-nature"> {nature} </div>
+      <div className="list-type"> {type} </div>
+      <div className="list-price"> {price} </div>
+      <div className="list-name"> {mame} </div>
+      <div className="location flex"> 
+      <div className="list-lication"> <img src={mappin} alt="map=pin" className="location-img" /> </div>
+      <div className="list-location">{location} </div>
+      </div>
+      <section className="list-equipments flex justify-between">  
+        <article className="area flex">  
+        <div className="listarea  mr-1"> <img src={ruler } alt="" className="area-img " /> </div>
+        <div className="list-area"> {area} </div>
+        </article>
+          <article className="bed flex "> 
+          <div className="listbed mr-1"> <img src={bedroom} alt="bed-img" className="bed-img" /> </div>
+          <div className="list-bed"> {bed} </div>
+          </article>
+              <article className="bath flex ">  
+              <div className="listbath  mr-1"> <img src={bathing} alt="bath-img" className="bath-img" /> </div>
+              <div className="list-bath">{bath} </div>
+              </article>
+      </section>
+      </section>
+    )
+    
+     })}
+      </div>
+      <div className="list-vutton"> <Button title="Browse More Property" 
+      style={{width:"100%",borderRadius:"6px",padding:"18px", color:"white" }} /> </div>
    
       
     </div>
