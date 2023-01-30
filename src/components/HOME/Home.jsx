@@ -4,6 +4,7 @@ import Mainbar from './Mainbar'
 import Formbar from './Formbar'
 import Ownership from './Ownership'
 import Place from './Place'
+import Listing from './Listing'
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Formbar/>
       <Ownership/>
       <Place/>
+      <Listing/>
     </div>
   )
 }
