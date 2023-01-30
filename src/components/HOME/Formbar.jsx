@@ -13,7 +13,7 @@ const Formbar = () => {
       <div className="input"><input type="text" className="formbar-search" placeholder='Search Keyword' />   </div>
       
         <div className="home-options">  
-        <select name="Property Type " className='location '>
+        <select name="Property Type " className='form-location '>
           <option value="Location">Property Type</option>
           <option value="Location 1">Property Type 1</option>
           <option value="Location2"> Property Type 2</option>
@@ -21,12 +21,13 @@ const Formbar = () => {
         </select>
         </div>
               <div className="home-options">  
-                <select name="Location" className='location '>
+                <select name="Location" className='form-location '>
                   <option value="Location">Location </option>
                   <option value="Location 1">Location 1</option>
                   <option value="Location2"> Location 2</option>
                   <option value="Location 3"> Location 3</option>
-              </select></div>
+              </select>
+              </div>
       
             <div className="input btn-input">
             <Button title=" Search"

@@ -52,16 +52,16 @@
     .formbar-search:focus{
         outline: none;
     }
-    .location {
+    .form-location {
         color: #666565;
         background-color: #fff;
         line-height: 1.7; 
         border-radius: 5px;
         border: none;
         width: 100%;
-   
+        padding: 1em ;
     }
-    .location:focus{
+    .form-location:focus{
         outline: none;
     }
     .home-options{ 
@@ -71,7 +71,6 @@
         background-color: #fff; 
         margin-bottom: 0.6em;
         border-radius: 5px;
-        padding: 1em 0.7em;
     }
 /* The lines thatfollow are the styles for thr ownership component */
 .ownaership,.listing{
@@ -215,17 +214,18 @@ padding: 3em;
     margin-right: 8px;
 }
 .location{
-    margin-left: 8px;
-    margin-top: -0.5em;
+    margin-left: 20px;
 }
 .list-equipments{
-   margin: 0em 2em 2em 2em;
+   margin: 0em 2em 2em 2.5em; 
+   color: #666565;
+    font-size: 16px;
 }
 .area-img {
     height: 23px;
 }
 .list-vutton{
-    border: solid 1px black;
+   
     width: 50%;
     margin: 0 auto;
     margin-bottom: 7em;

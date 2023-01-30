@@ -5,6 +5,7 @@ import Formbar from './Formbar'
 import Ownership from './Ownership'
 import Place from './Place'
 import Listing from './Listing'
+import Contact from './Contact'
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <Ownership/>
       <Place/>
       <Listing/>
+      <Contact/>
     </div>
   )
 }
