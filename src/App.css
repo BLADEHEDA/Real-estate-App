@@ -3,10 +3,13 @@
   padding:0;
   box-sizing: border-box;
 }
-button{
+.btn-1{
   border:none;
   background-color: #00B98E;
   border-color: #00B98E;
+}
+.App{
+background: whitesmoke;
 }
 
 @media only screen and (min-width:1px){

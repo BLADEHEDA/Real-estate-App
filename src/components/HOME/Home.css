@@ -90,7 +90,7 @@
     color: #666565;
 }
 .property-prop{
-    background:#e8f9fc;;
+    background:  #EFFDF5;       
     margin: 0.5em;
     padding: 1em;
 } 
@@ -229,6 +229,113 @@ padding: 3em;
     width: 50%;
     margin: 0 auto;
     margin-bottom: 7em;
+}
+/* style thatfollow correspond the contact component   */
+.contact-div{
+    margin:0em 7em;     
+    background:  #EFFDF5;
+    padding: 1.3em;
+    margin-bottom: 7em;
+}
+.contact-card{
+    background: white;
+    padding: 1.5em;
+}
+.contact-header{
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #0E2E50;
+    font-size: 2.2em;
+    margin: 1.2em  1em   0.5em 0em ;
+}
+.contact-content{
+    color: #0E2E50;
+    margin-bottom: 1.5em;
+}
+.phene-call-img{
+    width:1.4em;
+    margin-top: 2px;
+}
+.cal-call-img{
+    width:1.3em;
+    margin-top: 2px;
+}
+.contact-btn1{
+    border:none;
+    color: #fff;
+    background-color: #00B98E;
+    border-color: #00B98E;
+    border-radius: 5px;
+    padding: 1em 1.2em;
+}
+.contact-btn2{
+    border:none;
+    color: #fff;
+    background-color: #0E2E50;
+    border-color: #0E2E50;
+    border-radius: 5px;
+    padding: 1em 1.2em;
+}
+
+/* the lines below inclued s the styles for the agent component */
+.agents{
+    margin:0em 7em; 
+    padding-bottom: 5em; 
+}
+.agents-previw{
+    text-align: center;
+}
+.agents-header{
+    color: #0E2E50;
+    font-size: 2.2em;
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+}
+.agents-content{
+    color: #0E2E50;
+    margin-top: 0.3em;
+    margin-bottom: 2em;
+}
+.agents-imfo-div{
+    background:white;
+}
+.agents-info{
+    width: 30%;
+    position: relative;
+    left: 12em;
+    bottom: 1em;
+}
+.agent-card{
+    background:white;
+    margin: 1.5em 0em;
+} 
+.agent-icons-div{
+    margin-bottom: 1em;
+}
+.agent-icon{
+    margin-right: 0.4em;
+    border: solid 1px #00B98E;
+    padding: 0.7em;
+    border-radius: 50%;
+    background:white;
+}
+.agent-icon:hover{
+    background:#00B98E;
+}
+.agent-name{
+    color: #0E2E50;
+    font-size: 1.2em;
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+    margin-left: 1em;
+}
+.agent-designation{
+    color: #0E2E50;
+    font-size: 15px;
+    margin-left: 2em;
+    margin-top: -5px;
+    font-family: "Inter",sans-serif;
 }
 
 

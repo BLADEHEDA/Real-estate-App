@@ -6,6 +6,7 @@ import Ownership from './Ownership'
 import Place from './Place'
 import Listing from './Listing'
 import Contact from './Contact'
+import Agents from './Agents'
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <Place/>
       <Listing/>
       <Contact/>
+      <Agents/>
     </div>
   )
 }
