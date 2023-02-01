@@ -2,13 +2,19 @@ import React from 'react'
 import testinonial1 from '../../images/testimonial-1.jpg'
 import testinonial2 from '../../images/testimonial-2.jpg'
 import testinonial3 from '../../images/testimonial-3.jpg'
+import { Controller } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Carousel } from '@trendyol-js/react-carousel';
 import Button from '../SHARED/Button'
+
 
 // let me create the testimony prop 
 const Person =(props)=>{
+
     return(
-        <div className="person">   
-        <Button style={{background:'Green' }} title="yo bro"  />
+        <div className="person">  
+        <div className="slider-Button"> <Button style={{background:'Green' }} title="yo bro"  /> </div> 
+       
         <div className="person-div">
             <div className="person-card">
                 <person style={props.style} className="person-content"> {props.content}</person>
@@ -21,13 +27,13 @@ const Person =(props)=>{
                 </div>
             </div>
         </div>
-        <Button/>
+        <Button style={{background:'Green' }} title="yo bro"  />
         </div>
     )
 }
 
-
 const Testimonial = () => {
+
   return (
     <div className='testimonial'>
         <div className="testimonial-preview">
@@ -37,6 +43,7 @@ const Testimonial = () => {
             eirmod sit. Ipsum diam justo sed rebum vero dolor duo. </p>
         </div> 
 
+      
         <div className="person-testimonials">
             <div className="person-testimonial">     
                 <Person
@@ -69,6 +76,9 @@ const Testimonial = () => {
                 />
             </div>
         </div>
+       {/*   the lines below are tp be reedited */}
+   
+
 
     </div>
     

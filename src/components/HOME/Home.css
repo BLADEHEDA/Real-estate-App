@@ -365,6 +365,11 @@ padding: 3em;
     border: solid 1px red;
     padding: 1.5em;
 }
+.slider-Button{
+    position: relative;
+    top:10em;
+ right: 1em;
+}
 
 
 
