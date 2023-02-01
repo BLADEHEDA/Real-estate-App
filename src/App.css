@@ -62,8 +62,13 @@ background: whitesmoke;
 .show{
   display: block;
 }
-
+/* the ;ines that folloe are for the footer component */
+.footer{
+  background:black
+  }
+  
 }
+
 @media only screen and (min-width:991px){
   .desktop{
     display: flex;

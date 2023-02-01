@@ -8,7 +8,7 @@ import Listing from './Listing'
 import Contact from './Contact'
 import Agents from './Agents'
 import Testimonial from './Testimonial'
-
+import Footer from "../SHARED/Footer"
 
 const Home = () => {
   return (
@@ -21,6 +21,7 @@ const Home = () => {
       <Contact/>
       <Agents/>
       <Testimonial/>
+      <Footer/>
     </div>
   )
 }
