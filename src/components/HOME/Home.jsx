@@ -7,6 +7,7 @@ import Place from './Place'
 import Listing from './Listing'
 import Contact from './Contact'
 import Agents from './Agents'
+import Testimonial from './Testimonial'
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <Listing/>
       <Contact/>
       <Agents/>
+      <Testimonial/>
     </div>
   )
 }
