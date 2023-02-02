@@ -64,13 +64,20 @@ background: whitesmoke;
 }
 /* the ;ines that folloe are for the footer component */
 .footer{
-  background:black
+  background: #0E2E50;
+  padding:6em 7em;
+  margin-left:1em;
+
   }
-.touch-img-phone{
-  width: 1em;
+
+.touch-img-mail, .touch-img-phone,.touch-img{ 
+  width: 1.2em;
 }
-.touch-img-mail{ 
-  width: 1em;
+.footer-touch-header{
+ color:white ;
+ font-weight:700;
+ font-size:1.4em;
+ margin-bottom:1em;
 }
 
 
