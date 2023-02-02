@@ -70,9 +70,9 @@ background: whitesmoke;
   }
 
 .touch-img-mail, .touch-img-phone,.touch-img{ 
-  width: 1.2em;
+  width: 1em;
   margin-right:0.8em;
-  margin-top:0.3em;
+  margin-top:5px;
 }
 .footer-touch-header{
  color:white ;
@@ -83,7 +83,10 @@ background: whitesmoke;
 }
 .touch-info-right{
   font-size:1em;
-  color:white;
+  color:rgb(181, 169, 169);
+}
+.touch-info{
+  margin-bottom:0.3em;
 }
 
 
