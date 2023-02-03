@@ -66,7 +66,19 @@ const Footer = () => {
   </div>
     </footer>
       <footer className="footer-gallery">  
-      <div className="footer-gallery-header">Photo Gallery </div>
+        <h1 className="footer-gallery-header">Photo Gallery </h1>
+        <div className="footer-gallery-pics-div">
+          <div className="footer-gallery-pics flex">
+            <div className="footer-gellery-pic"> <img src={Home1} alt="footer-gallery" className="footer-gallery-img" /> </div>
+            <div className="footer-gellery-pic"> <img src={Home2} alt="footer-gallery" className="footer-gallery-img" /> </div>
+            <div className="footer-gellery-pic"> <img src={Home3} alt="footer-gallery" className="footer-gallery-img" /> </div>
+        </div>
+        <div className="footer-gallery-pics flex">
+        <div className="footer-gellery-pic"> <img src={Home4} alt="footer-gallery" className="footer-gallery-img" /> </div>
+        <div className="footer-gellery-pic"> <img src={Home5} alt="footer-gallery" className="footer-gallery-img" /> </div>
+        <div className="footer-gellery-pic"> <img src={Home6} alt="footer-gallery" className="footer-gallery-img" /> </div>
+    </div>
+      </div>
       
       </footer>
 

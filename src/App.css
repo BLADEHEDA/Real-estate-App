@@ -112,13 +112,20 @@ background: whitesmoke;
 .footer-touch-header,.footer-link-header,.footer-gallery-header{
   color:white ;
   font-weight:700;
-  font-size:1.4em;
+  font-size:1.25em;
   margin-bottom:0.7em;
  }
  .footer-gallery{
   margin-top:2em;
  }
-
+.footer-gellery-pic{
+  border:solid 5px white;
+  border-radius:5px;
+  margin:4px
+}
+.footer-gallery-pics-div{
+  margin-left:-4px
+}
 
 
 
