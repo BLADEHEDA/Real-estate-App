@@ -65,7 +65,7 @@ background: whitesmoke;
 /* the ;ines that folloe are for the footer component */
 .footer{
   background: #0E2E50;
-  padding:6em 7em;
+  padding:6em 7em 2em 7em;
 
   }
 
@@ -109,7 +109,7 @@ background: whitesmoke;
   color:rgb(181, 169, 169); 
   font: size 0.8em;
 }
-.footer-touch-header,.footer-link-header,.footer-gallery-header{
+.footer-touch-header,.footer-link-header,.footer-gallery-header,.footer-newsletter-header{
   color:white ;
   font-weight:700;
   font-size:1.25em;
@@ -124,9 +124,63 @@ background: whitesmoke;
   margin:4px
 }
 .footer-gallery-pics-div{
-  margin-left:-4px
+  margin-left:-4px;
+  margin-bottom:2em;
 }
-
+.footer-newsletter-content{
+  color:rgb(181, 169, 169); 
+  font: size 1em;
+}
+.footer-newsletter-info{
+  border:solid 1px rgb(181, 169, 169); 
+  display:flex;
+  padding:0.4em;
+  margin:1em 4em;
+  border-radius:6px;
+}
+.footer-newsletter-btn{
+  flex:15%;
+ margin-left:0.3em
+}
+.footer-newsletter-form{
+  flex:85%;
+  border:none;
+  margin-left:1em;
+}
+.newsletter-form{
+  width:100%;
+  padding: 0.7em;
+  border:none;
+  background: transparent;
+  color: rgb(181, 169, 169);
+}
+.newsletter-form:focus{
+  outline:none;
+}
+.footer-hr{
+  background: rgb(181, 169, 169);
+  margin:3em 0em 2em 0em;
+  height:0.1px;
+}
+.footer-address a{
+  color:white;
+}
+.footer-address-content{
+  color: rgb(181, 169, 169);
+  margin:0em 10px;
+}
+.footer-address-link{
+ padding-bottom: 2px;
+ border-bottom-style: solid;
+ border-bottom-width:1px;
+ width: fit-content;
+}
+.footer-address-links{
+  margin:0 auto;
+  width:50%;
+  justify-content:space-between;
+  margin-top:1em;
+}
 
 
 

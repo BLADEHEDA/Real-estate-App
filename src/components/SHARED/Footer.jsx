@@ -13,6 +13,7 @@ import Home4 from '../../images/property-4.jpg'
 import Home3 from '../../images/property-3.jpg'
 import Home2 from '../../images/property-2.jpg'
 import Home1 from '../../images/property-1.jpg'
+import Button from './Button'
 
 
 const Footer = () => {
@@ -74,13 +75,49 @@ const Footer = () => {
             <div className="footer-gellery-pic"> <img src={Home3} alt="footer-gallery" className="footer-gallery-img" /> </div>
         </div>
         <div className="footer-gallery-pics flex">
-        <div className="footer-gellery-pic"> <img src={Home4} alt="footer-gallery" className="footer-gallery-img" /> </div>
-        <div className="footer-gellery-pic"> <img src={Home5} alt="footer-gallery" className="footer-gallery-img" /> </div>
-        <div className="footer-gellery-pic"> <img src={Home6} alt="footer-gallery" className="footer-gallery-img" /> </div>
-    </div>
-      </div>
-      
+          <div className="footer-gellery-pic"> <img src={Home4} alt="footer-gallery" className="footer-gallery-img" /> </div>
+          <div className="footer-gellery-pic"> <img src={Home5} alt="footer-gallery" className="footer-gallery-img" /> </div>
+          <div className="footer-gellery-pic"> <img src={Home6} alt="footer-gallery" className="footer-gallery-img" /> </div>
+        </div>
+      </div>  
       </footer>
+        <footer className="footer-newsletter">
+        <h1 className="footer-newsletter-header">Newsletter</h1>
+        <p className="footer-newsletter-content">Lorem ipsum dolor sit amet ctu relit. 
+        repudiandae?</p>
+        <div className="footer-newsletter-info">
+          <div className="footer-newsletter-form"> 
+            <input type="email" className="newsletter-form" placeholder="Your email" />
+          </div>
+          <div className="footer-newsletter-btn">
+            <Button title="SignUp" style={{color:"white",width:"100%",
+            padding:"0.6em 0.8em",borderRadius:"7px",fontSize:"1em"}} />
+             </div>
+        </div> <hr className="footer-hr" />
+        <div className="footer-address"> 
+            <p className="footer-address">  
+              <a href="https://github.com/BLADEHEDA" className="footer-address-link">MaaKan Real estate</a>
+              <span className="footer-address-content"> All Right Reserved Designed BY</span>
+              <a href="https://github.com/BLADEHEDA" className="footer-address-link">BLADEHEDA</a>
+            </p>
+            <div className="footer-address-links flex">
+              <div className="footer-link-address"> 
+              <a href="/" className="link-address">   Home</a>
+              </div>
+              <div className="footer-link-address"> 
+              <a href="/" className="link-address">Cookies</a>
+              </div>
+              <div className="footer-link-address"> 
+              <a href="/" className="link-address">Help </a>
+              </div>
+              <div className="footer-link-address"> 
+              <a href="/" className="link-address">FAQs</a>
+              </div>
+            </div>
+        
+        </div>
+        
+        </footer>
 
 
     </footer>
