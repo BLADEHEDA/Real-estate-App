@@ -7,9 +7,12 @@ import linkedin from "../../images/icons8-linkedin-2-50.png"
 import twitter  from "../../images/icons8-twitter-50.png"
 import youtube  from "../../images/icons8-youtube-50.png"
 import arrowdown from "../../images/rTjr6pqxc.png"
-
-
-
+import Home6 from '../../images/property-6.jpg'
+import Home5 from '../../images/property-5.jpg'
+import Home4 from '../../images/property-4.jpg'
+import Home3 from '../../images/property-3.jpg'
+import Home2 from '../../images/property-2.jpg'
+import Home1 from '../../images/property-1.jpg'
 
 
 const Footer = () => {
@@ -39,7 +42,8 @@ const Footer = () => {
           </footer>  
     </footer>
 
-      <footer className="footer-links"> </footer>
+      <footer className="footer-links"> 
+        <h1 className="footer-link-header"> Quick Links</h1>
         <div className="footer-link"> 
           <div className="footer-link-arrow"><img src= {arrowdown } alt="arrow-down" className="footer-link-arrow-img" /> </div>
           <div className="footer-link-div"> <a href="/#" className="footer-link">About Us</a> </div>
@@ -60,6 +64,13 @@ const Footer = () => {
     <div className="footer-link-arrow"><img src= {arrowdown } alt="arrow-down" className="footer-link-arrow-img" /> </div>
     <div className="footer-link-div"> <a href="/" className="footer-link">Terms & Condtion</a> </div>
   </div>
+    </footer>
+      <footer className="footer-gallery">  
+      <div className="footer-gallery-header">Photo Gallery </div>
+      
+      </footer>
+
+
     </footer>
   )
 }

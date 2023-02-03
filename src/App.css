@@ -74,13 +74,6 @@ background: whitesmoke;
   margin-right:0.8em;
   margin-top:6px;
 }
-.footer-touch-header{
- color:white ;
- font-weight:700;
- font-size:1.4em;
- margin-bottom:0.7em;
-
-}
 .touch-info-right{
   font-size:1.05em;
   color:rgb(181, 169, 169);
@@ -94,17 +87,20 @@ background: whitesmoke;
   background: white;
   padding: 0.3em;
 }
+.footer-iconss{ 
+  margin-top:1em;
+}
 .fotter-icons8{
   border: solid 1px white; 
  border-radius: 50%;
  margin-right: 0.5em;
  margin-right: 0.5em;
- margin-bottom: 3em;
+ margin-bottom: 2.5em;
 }
 .footer-link-arrow-img{
   width:0.4em;
   transform: rotate(180deg);
-  margin:6px 15px 0px 0px;
+  margin:6px 10px 0px 0px;
 }
 .footer-link{
   display:flex;
@@ -113,7 +109,15 @@ background: whitesmoke;
   color:rgb(181, 169, 169); 
   font: size 0.8em;
 }
-
+.footer-touch-header,.footer-link-header,.footer-gallery-header{
+  color:white ;
+  font-weight:700;
+  font-size:1.4em;
+  margin-bottom:0.7em;
+ }
+ .footer-gallery{
+  margin-top:2em;
+ }
 
 
 
