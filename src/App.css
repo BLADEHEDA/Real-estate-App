@@ -72,22 +72,48 @@ background: whitesmoke;
 .touch-img-mail, .touch-img-phone,.touch-img{ 
   width: 1em;
   margin-right:0.8em;
-  margin-top:5px;
+  margin-top:6px;
 }
 .footer-touch-header{
  color:white ;
  font-weight:700;
  font-size:1.4em;
- margin-bottom:1em;
+ margin-bottom:0.7em;
 
 }
 .touch-info-right{
-  font-size:1em;
+  font-size:1.05em;
   color:rgb(181, 169, 169);
 }
 .touch-info{
   margin-bottom:0.3em;
 }
+.footer-img{
+  width: 1.8em;
+  border-radius: 50%;
+  background: white;
+  padding: 0.3em;
+}
+.fotter-icons8{
+  border: solid 1px white; 
+ border-radius: 50%;
+ margin-right: 0.5em;
+ margin-right: 0.5em;
+ margin-bottom: 3em;
+}
+.footer-link-arrow-img{
+  width:0.4em;
+  transform: rotate(180deg);
+  margin:6px 15px 0px 0px;
+}
+.footer-link{
+  display:flex;
+}
+.footer-link{
+  color:rgb(181, 169, 169); 
+  font: size 0.8em;
+}
+
 
 
 
