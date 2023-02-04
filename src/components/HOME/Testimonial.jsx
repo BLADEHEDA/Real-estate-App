@@ -4,6 +4,8 @@ import testinonial2 from '../../images/testimonial-2.jpg'
 import testinonial3 from '../../images/testimonial-3.jpg'
 import Button from '../SHARED/Button'
 import { useState } from "react";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
 
 
 
@@ -13,7 +15,6 @@ const Person =(props)=>{
 
     return(
         <div className="person">  
-        <div className="slider-Button"> <Button style={{background:'Green' }} title="yo bro"  /> </div> 
        
         <div className="person-div">
             <div className="person-card">
@@ -27,7 +28,6 @@ const Person =(props)=>{
                 </div>
             </div>
         </div>
-        <Button style={{background:'Green' }} title="yo bro"  />
         </div>
     )
 }
@@ -43,29 +43,9 @@ const Testimonial = () => {
             eirmod sit. Ipsum diam justo sed rebum vero dolor duo. </p>
         </div> 
 
-      
-        <div className="person-testimonials">
-            <div className="person-testimonial">     
-                <Person
-                src={testinonial1}
-                profession="Profession"
-                name="Client Name" 
-                content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Fugiat sint quo repellat aperiam nisi tempore praesentium expedita libero, fugit,
-                non corporis harum provident velit dolores facilis cupiditate dicta? " 
-                />
-            </div>
-            <div className="person-testimonial">     
-                <Person
-                src={testinonial2}
-                profession="Profession"
-                name="Client Name" 
-                content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Fugiat sint quo repellat aperiam nisi tempore praesentium expedita libero, fugit,
-                non corporis harum provident velit dolores facilis cupiditate dicta? " 
-                />
-            </div>
-            <div className="person-testimonial">     
+        <Splide className="person-testimonials" options={ { rewind: true } } aria-label="React Splide Example">
+      <SplideSlide>
+      <div className="person-testimonial">     
                 <Person
                 src={testinonial3}
                 profession="Profession"
@@ -75,7 +55,32 @@ const Testimonial = () => {
                 non corporis harum provident velit dolores facilis cupiditate dicta? " 
                 />
             </div>
-        </div>
+      </SplideSlide>
+      <SplideSlide>
+      <div className="person-testimonial">     
+                <Person
+                src={testinonial2}
+                profession="Profession"
+                name="Client Name" 
+                content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Fugiat sint quo repellat aperiam nisi tempore praesentium expedita libero, fugit,
+                non corporis harum provident velit dolores facilis cupiditate dicta? " 
+                />
+            </div>
+      </SplideSlide>
+      <SplideSlide>
+      <div className="person-testimonial">     
+                <Person
+                src={testinonial1}
+                profession="Profession"
+                name="Client Name" 
+                content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Fugiat sint quo repellat aperiam nisi tempore praesentium expedita libero, fugit,
+                non corporis harum provident velit dolores facilis cupiditate dicta? " 
+                />
+            </div>
+      </SplideSlide>
+    </Splide>
     </div>
 
   )

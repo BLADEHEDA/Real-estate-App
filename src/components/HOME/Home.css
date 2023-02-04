@@ -357,12 +357,10 @@ padding: 3em;
     margin-bottom: 2em;
 }
 .person-div{
-    border: solid 1px black;
     background:  #EFFDF5;
     padding: 1.3em;
 }
 .person-card{
-    border: solid 1px red;
     padding: 1.5em;
 }
 .slider-Button{
