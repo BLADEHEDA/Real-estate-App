@@ -36,47 +36,7 @@ const Testimonial = () => {
 
   return (
     <div className='testimonial'>
-        <div className="testimonial-preview">
-            <h1 className="testimonial-header">Our Clients Say!</h1>
-            <p className="testimonial-content">Eirmod sed ipsum dolor sit rebum labore magna erat. 
-            Tempor ut dolore lorem kasd vero ipsum sit
-            eirmod sit. Ipsum diam justo sed rebum vero dolor duo. </p>
-        </div> 
-
-      
-        <div className="person-testimonials">
-            <div className="person-testimonial">     
-                <Person
-                src={testinonial1}
-                profession="Profession"
-                name="Client Name" 
-                content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Fugiat sint quo repellat aperiam nisi tempore praesentium expedita libero, fugit,
-                non corporis harum provident velit dolores facilis cupiditate dicta? " 
-                />
-            </div>
-            <div className="person-testimonial">     
-                <Person
-                src={testinonial2}
-                profession="Profession"
-                name="Client Name" 
-                content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Fugiat sint quo repellat aperiam nisi tempore praesentium expedita libero, fugit,
-                non corporis harum provident velit dolores facilis cupiditate dicta? " 
-                />
-            </div>
-            <div className="person-testimonial">     
-                <Person
-                src={testinonial3}
-                profession="Profession"
-                name="Client Name" 
-                content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Fugiat sint quo repellat aperiam nisi tempore praesentium expedita libero, fugit,
-                non corporis harum provident velit dolores facilis cupiditate dicta? " 
-                />
-            </div>
-        </div>
-       {/*   the lines below are tp be reedited */}
+    
    
 
 

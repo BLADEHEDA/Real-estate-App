@@ -93,31 +93,34 @@ const Footer = () => {
             <Button title="SignUp" style={{color:"white",width:"100%",
             padding:"0.6em 0.8em",borderRadius:"7px",fontSize:"1em"}} />
              </div>
-        </div> <hr className="footer-hr" />
-        <div className="footer-address"> 
-            <p className="footer-address">  
-              <a href="https://github.com/BLADEHEDA" className="footer-address-link">MaaKan Real estate</a>
-              <span className="footer-address-content"> All Right Reserved Designed BY</span>
-              <a href="https://github.com/BLADEHEDA" className="footer-address-link">BLADEHEDA</a>
-            </p>
-            <div className="footer-address-links flex">
-              <div className="footer-link-address"> 
-              <a href="/" className="link-address">   Home</a>
+        </div>
+        </footer>
+         <hr className="footer-hr" />
+
+          <div className="footer-address"> 
+              <p className="footer-address">  
+                <a href="https://github.com/BLADEHEDA" className="footer-address-link">MaaKan Real estate</a>
+                <span className="footer-address-content"> All Right Reserved Designed BY</span>
+                <a href="https://github.com/BLADEHEDA" className="footer-address-link">BLADEHEDA</a>
+              </p>
+              <div className="footer-address-links flex">
+                <div className="footer-link-address"> 
+                <a href="/" className="link-address">   Home</a>
+                </div>
+                <div className="footer-link-address"> 
+                <a href="/" className="link-address">Cookies</a>
+                </div>
+                <div className="footer-link-address"> 
+                <a href="/" className="link-address">Help </a>
+                </div>
+                <div className="footer-link-address"> 
+                <a href="/" className="link-address">FAQs</a>
+                </div>
               </div>
-              <div className="footer-link-address"> 
-              <a href="/" className="link-address">Cookies</a>
-              </div>
-              <div className="footer-link-address"> 
-              <a href="/" className="link-address">Help </a>
-              </div>
-              <div className="footer-link-address"> 
-              <a href="/" className="link-address">FAQs</a>
-              </div>
-            </div>
         
         </div>
         
-        </footer>
+        
 
 
     </footer>
