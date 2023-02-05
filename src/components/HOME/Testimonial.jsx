@@ -11,26 +11,15 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 
-
-
-
 // let me create the testimony prop 
 const Person =(props)=>{
-    new Splide( '.splide', {
-        classes: {
-              arrows: 'splide__arrows your-class-arrows arrow1',
-              arrow : 'splide__arrow your-class-arrow arrow1',
-              prev  : 'splide__arrow--prev your-class-prev',
-              next  : 'splide__arrow--next your-class-next arrow1',
-        },
-      } );
-
+    
     return(
         <div className="person">  
        
         <div className="person-div">
             <div className="person-card">
-                <person style={props.style} className="person-content"> {props.content}</person>
+                <div style={props.style} className="person-content"> {props.content}</div>
                 <div className="person-info">
                     <div style={props.style} className="person-pic"> <img src={props.src} alt="" className="person-pic-img" />   </div>
                     <div className="person-data">   
@@ -57,41 +46,41 @@ const Testimonial = () => {
         </div> 
 
         <Splide className="person-testimonials" options={ { rewind: true } } aria-label="React Splide Example">
-      <SplideSlide>
-      <div className="person-testimonial">     
+      <SplideSlide id='newman'>
+      {/* <div className="person-testimonial">      */}
                 <Person
                 src={testinonial3}
                 profession="Profession"
                 name="Client Name" 
                 content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Fugiat sint quo repellat aperiam nisi tempore praesentium expedita libero, fugit,
-                non corporis harum provident velit dolores facilis cupiditate dicta? " 
+                non corporis harum  " 
                 />
-            </div>
+            {/* </div> */}
       </SplideSlide>
       <SplideSlide>
-      <div className="person-testimonial">     
+      {/* <div className="person-testimonial">      */}
                 <Person
                 src={testinonial2}
                 profession="Profession"
                 name="Client Name" 
                 content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Fugiat sint quo repellat aperiam nisi tempore praesentium expedita libero, fugit,
-                non corporis harum provident velit dolores facilis cupiditate dicta? " 
+                non corporis harum  " 
                 />
-            </div>
+            {/* </div> */}
       </SplideSlide>
       <SplideSlide>
-      <div className="person-testimonial">     
+      {/* <div className="person-testimonial">      */}
                 <Person
                 src={testinonial1}
                 profession="Profession"
                 name="Client Name" 
                 content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Fugiat sint quo repellat aperiam nisi tempore praesentium expedita libero, fugit,
-                non corporis harum provident velit dolores facilis cupiditate dicta? " 
+                non corporis harum  " 
                 />
-            </div>
+            {/* </div> */}
             
       </SplideSlide>
     </Splide>

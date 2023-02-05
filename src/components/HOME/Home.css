@@ -356,22 +356,28 @@ padding: 3em;
     margin-top: 0.3em;
     margin-bottom: 2em;
 }
-.person-div{
-    background:  #EFFDF5;
-  margin: 2em;
-}
 .person-card{
-    padding: 1.5em;
-    background: white;;
+    padding: 3em;
 }
-.slider-Button{
-    position: relative;
-    top:10em;
- right: 1em;
+.person-content{
+ padding: 1em;
 }
-.person-testimonial{
-    border: solid 1px black;
+.person-info{
+display: flex;
+padding: 1em;
 }
+.person-pic-img{
+width: 3em;
+}
+.person-profession{
+    font-size: 15px;
+    padding-right: 0.35em;
+}
+.person-name{
+    font-weight: bold;
+    padding-right: 0.35em;
+}
+
     
 
 
