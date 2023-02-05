@@ -358,17 +358,20 @@ padding: 3em;
 }
 .person-div{
     background:  #EFFDF5;
-    padding: 1.3em;
+  margin: 2em;
 }
 .person-card{
     padding: 1.5em;
+    background: white;;
 }
 .slider-Button{
     position: relative;
     top:10em;
  right: 1em;
 }
-
+.person-testimonial{
+    border: solid 1px black;
+}
     
 
 

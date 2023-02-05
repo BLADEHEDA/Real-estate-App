@@ -6,12 +6,24 @@ import Button from '../SHARED/Button'
 import { useState } from "react";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
 
 
 
 
 // let me create the testimony prop 
 const Person =(props)=>{
+    new Splide( '.splide', {
+        classes: {
+              arrows: 'splide__arrows your-class-arrows arrow1',
+              arrow : 'splide__arrow your-class-arrow arrow1',
+              prev  : 'splide__arrow--prev your-class-prev',
+              next  : 'splide__arrow--next your-class-next arrow1',
+        },
+      } );
 
     return(
         <div className="person">  
@@ -28,6 +40,7 @@ const Person =(props)=>{
                 </div>
             </div>
         </div>
+
         </div>
     )
 }
@@ -79,13 +92,13 @@ const Testimonial = () => {
                 non corporis harum provident velit dolores facilis cupiditate dicta? " 
                 />
             </div>
+            
       </SplideSlide>
     </Splide>
-    </div>
 
+    </div>
   )
 }
-
 
 
 
