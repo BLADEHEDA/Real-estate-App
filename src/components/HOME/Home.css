@@ -340,7 +340,7 @@ padding: 3em;
 /* the lines below are the styles of the testimonial component */
 .testimonial{
     margin:0em 7em; 
-    padding-bottom: 5em; 
+    padding-bottom: 3em; 
 }
 .testimonial-preview{
     text-align: center;
@@ -354,28 +354,29 @@ padding: 3em;
 .testimonial-content{
     color: #0E2E50;
     margin-top: 0.3em;
-    margin-bottom: 2em;
 }
 .person-card{
     padding: 3em;
 }
 .person-content{
- padding: 1em;
+ padding: 1em 4em;
+ background: white;
 }
 .person-info{
 display: flex;
-padding: 1em;
+padding: 0em 4em 1em 4em;
+background: white;
 }
 .person-pic-img{
 width: 3em;
 }
 .person-profession{
     font-size: 15px;
-    padding-right: 0.35em;
+    padding-left: 1em;
 }
 .person-name{
     font-weight: bold;
-    padding-right: 0.35em;
+    padding-left: 1em;
 }
 
     
