@@ -87,7 +87,7 @@ const Footer = () => {
             <footer className="footer-newsletter">
             <h1 className="footer-newsletter-header">Newsletter</h1>
             <p className="footer-newsletter-content">Lorem ipsum dolor sit amet ctu relit. 
-            repudiandae?</p>
+            repud ian dae?</p>
             <div className="footer-newsletter-info">
               <div className="footer-newsletter-form"> 
                 <input type="email" className="newsletter-form" placeholder="Your email" />
@@ -100,13 +100,14 @@ const Footer = () => {
             </footer>
         </section>
          <hr className="footer-hr" />
-
+         <section className="footer-section-3 footer-address">
           <div className="footer-address"> 
               <p className="footer-address">  
                 <a href="https://github.com/BLADEHEDA" className="footer-address-link">MaaKan Real estate</a>
                 <span className="footer-address-content"> All Right Reserved Designed BY</span>
                 <a href="https://github.com/BLADEHEDA" className="footer-address-link">BLADEHEDA</a>
               </p>
+           </div>
               <div className="footer-address-links flex">
                 <div className="footer-link-address"> 
                 <a href="/" className="link-address">   Home</a>
@@ -120,13 +121,9 @@ const Footer = () => {
                 <div className="footer-link-address"> 
                 <a href="/" className="link-address">FAQs</a>
                 </div>
-              </div>
-        
+            
         </div>
-   
-        
-        
-
+        </section>
 
     </footer>
   )
