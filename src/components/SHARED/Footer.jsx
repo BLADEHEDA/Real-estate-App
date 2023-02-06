@@ -19,82 +19,86 @@ import Button from './Button'
 const Footer = () => {
   return (
     <footer className='footer' >
-      <footer className="footer-touch">
-        <h1 className="footer-touch-header">Get InTouch</h1>
-        <footer className="footer-touch-info">
+      <section className="footer-section-1"> 
+        <footer className="footer-touch">
+          <h1 className="footer-touch-header">Get InTouch</h1>
+          <footer className="footer-touch-info">
+              <div className="touch-info flex">
+                  <div className="touch-info-left"> <img src={map} alt="touch-" className="touch-img" /> </div> 
+                  <div className="touch-info-right">123 Street, New York, USA </div> 
+              </div>
+                  <div className="touch-info flex">
+                      <div className="touch-info-left"> <img src={phone} alt="touch-" className="touch-img-phone"/> </div> 
+                      <div className="touch-info-right">+012 345 67890 </div> 
+                  </div> 
             <div className="touch-info flex">
-                <div className="touch-info-left"> <img src={map} alt="touch-" className="touch-img" /> </div> 
-                <div className="touch-info-right">123 Street, New York, USA </div> 
-            </div>
-                <div className="touch-info flex">
-                    <div className="touch-info-left"> <img src={phone} alt="touch-" className="touch-img-phone"/> </div> 
-                    <div className="touch-info-right">+012 345 67890 </div> 
-                </div> 
-          <div className="touch-info flex">
-          <div className="touch-info-left"> <img src={mail} alt="touch-" className="touch-img-mail"/> </div> 
-          <div className="touch-info-right">info@example.com </div> 
-        </div>  
-        </footer>
-          <footer className="footer-iconss flex">  
-          <div className="fotter-icons8"> <img src={twitter } alt="footer-icons" className="footer-img" /> </div>
-          <div className="fotter-icons8"> <img src={facebook} alt="footer-icons" className="footer-img" /> </div>
-          <div className="fotter-icons8"> <img src={youtube} alt="footer-icons" className="footer-img" /> </div>
-          <div className="fotter-icons8"> <img src={linkedin} alt="footer-icons" className="footer-img" /> </div>
-          </footer>  
-    </footer>
+            <div className="touch-info-left"> <img src={mail} alt="touch-" className="touch-img-mail"/> </div> 
+            <div className="touch-info-right">info@example.com </div> 
+          </div>  
+          </footer>
+            <footer className="footer-iconss flex">  
+            <div className="fotter-icons8"> <img src={twitter } alt="footer-icons" className="footer-img" /> </div>
+            <div className="fotter-icons8"> <img src={facebook} alt="footer-icons" className="footer-img" /> </div>
+            <div className="fotter-icons8"> <img src={youtube} alt="footer-icons" className="footer-img" /> </div>
+            <div className="fotter-icons8"> <img src={linkedin} alt="footer-icons" className="footer-img" /> </div>
+            </footer>  
+      </footer>
 
-      <footer className="footer-links"> 
-        <h1 className="footer-link-header"> Quick Links</h1>
-        <div className="footer-link"> 
+        <footer className="footer-links"> 
+          <h1 className="footer-link-header"> Quick Links</h1>
+          <div className="footer-link"> 
+            <div className="footer-link-arrow"><img src= {arrowdown } alt="arrow-down" className="footer-link-arrow-img" /> </div>
+            <div className="footer-link-div"> <a href="/#" className="footer-link">About Us</a> </div>
+          </div>
+          <div className="footer-link"> 
+            <div className="footer-link-arrow"><img src= {arrowdown } alt="arrow-down" className="footer-link-arrow-img" /> </div>
+            <div className="footer-link-div"> <a href="/" className="footer-link">Contact Us</a> </div>
+          </div>
+          <div className="footer-link"> 
           <div className="footer-link-arrow"><img src= {arrowdown } alt="arrow-down" className="footer-link-arrow-img" /> </div>
-          <div className="footer-link-div"> <a href="/#" className="footer-link">About Us</a> </div>
-        </div>
-        <div className="footer-link"> 
-          <div className="footer-link-arrow"><img src= {arrowdown } alt="arrow-down" className="footer-link-arrow-img" /> </div>
-          <div className="footer-link-div"> <a href="/" className="footer-link">Contact Us</a> </div>
+          <div className="footer-link-div"> <a href="/" className="footer-link">Our Services</a> </div>
         </div>
         <div className="footer-link"> 
         <div className="footer-link-arrow"><img src= {arrowdown } alt="arrow-down" className="footer-link-arrow-img" /> </div>
-        <div className="footer-link-div"> <a href="/" className="footer-link">Our Services</a> </div>
+        <div className="footer-link-div"> <a href="/" className="footer-link">Privacy Policy</a> </div>
       </div>
       <div className="footer-link"> 
       <div className="footer-link-arrow"><img src= {arrowdown } alt="arrow-down" className="footer-link-arrow-img" /> </div>
-      <div className="footer-link-div"> <a href="/" className="footer-link">Privacy Policy</a> </div>
+      <div className="footer-link-div"> <a href="/" className="footer-link">Terms & Condtion</a> </div>
     </div>
-    <div className="footer-link"> 
-    <div className="footer-link-arrow"><img src= {arrowdown } alt="arrow-down" className="footer-link-arrow-img" /> </div>
-    <div className="footer-link-div"> <a href="/" className="footer-link">Terms & Condtion</a> </div>
-  </div>
-    </footer>
-      <footer className="footer-gallery">  
-        <h1 className="footer-gallery-header">Photo Gallery </h1>
-        <div className="footer-gallery-pics-div">
-          <div className="footer-gallery-pics flex">
-            <div className="footer-gellery-pic"> <img src={Home1} alt="footer-gallery" className="footer-gallery-img" /> </div>
-            <div className="footer-gellery-pic"> <img src={Home2} alt="footer-gallery" className="footer-gallery-img" /> </div>
-            <div className="footer-gellery-pic"> <img src={Home3} alt="footer-gallery" className="footer-gallery-img" /> </div>
-        </div>
-        <div className="footer-gallery-pics flex">
-          <div className="footer-gellery-pic"> <img src={Home4} alt="footer-gallery" className="footer-gallery-img" /> </div>
-          <div className="footer-gellery-pic"> <img src={Home5} alt="footer-gallery" className="footer-gallery-img" /> </div>
-          <div className="footer-gellery-pic"> <img src={Home6} alt="footer-gallery" className="footer-gallery-img" /> </div>
-        </div>
-      </div>  
       </footer>
-        <footer className="footer-newsletter">
-        <h1 className="footer-newsletter-header">Newsletter</h1>
-        <p className="footer-newsletter-content">Lorem ipsum dolor sit amet ctu relit. 
-        repudiandae?</p>
-        <div className="footer-newsletter-info">
-          <div className="footer-newsletter-form"> 
-            <input type="email" className="newsletter-form" placeholder="Your email" />
-          </div>
-          <div className="footer-newsletter-btn">
-            <Button title="SignUp" style={{color:"white",width:"100%",
-            padding:"0.6em 0.8em",borderRadius:"7px",fontSize:"1em"}} />
-             </div>
-        </div>
-        </footer>
+    </section>
+        <section className="footer-section-2"> 
+          <footer className="footer-gallery">  
+            <h1 className="footer-gallery-header">Photo Gallery </h1>
+            <div className="footer-gallery-pics-div">
+              <div className="footer-gallery-pics flex">
+                <div className="footer-gellery-pic"> <img src={Home1} alt="footer-gallery" className="footer-gallery-img" /> </div>
+                <div className="footer-gellery-pic"> <img src={Home2} alt="footer-gallery" className="footer-gallery-img" /> </div>
+                <div className="footer-gellery-pic"> <img src={Home3} alt="footer-gallery" className="footer-gallery-img" /> </div>
+            </div>
+            <div className="footer-gallery-pics flex">
+              <div className="footer-gellery-pic"> <img src={Home4} alt="footer-gallery" className="footer-gallery-img" /> </div>
+              <div className="footer-gellery-pic"> <img src={Home5} alt="footer-gallery" className="footer-gallery-img" /> </div>
+              <div className="footer-gellery-pic"> <img src={Home6} alt="footer-gallery" className="footer-gallery-img" /> </div>
+            </div>
+          </div>  
+          </footer>
+            <footer className="footer-newsletter">
+            <h1 className="footer-newsletter-header">Newsletter</h1>
+            <p className="footer-newsletter-content">Lorem ipsum dolor sit amet ctu relit. 
+            repudiandae?</p>
+            <div className="footer-newsletter-info">
+              <div className="footer-newsletter-form"> 
+                <input type="email" className="newsletter-form" placeholder="Your email" />
+              </div>
+              <div className="footer-newsletter-btn">
+                <Button title="SignUp" style={{color:"white",width:"100%",
+                padding:"0.6em 0.8em",borderRadius:"7px",fontSize:"1em"}} />
+                </div>
+            </div>
+            </footer>
+        </section>
          <hr className="footer-hr" />
 
           <div className="footer-address"> 
@@ -119,6 +123,7 @@ const Footer = () => {
               </div>
         
         </div>
+   
         
         
 
