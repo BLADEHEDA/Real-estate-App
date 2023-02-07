@@ -525,9 +525,9 @@ width: 3em;
 }
 .listing-preview{
     display:flex;
-    margin: 2em -2em;
-
+    margin: 0em -2em;
     justify-content: space-between;
+    /* border: solid 1px black; */
 }
 .listing-div{
 flex: 50%;
