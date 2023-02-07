@@ -421,7 +421,7 @@ width: 3em;
     margin:0.5em;
 }
 .list-nature{
-    width: 25%;
+    width: 28%;
     bottom:14em;
 }
 .list-type{  
@@ -527,7 +527,6 @@ width: 3em;
     display:flex;
     margin: 0em -2em;
     justify-content: space-between;
-    /* border: solid 1px black; */
 }
 .listing-div{
 flex: 50%;
@@ -541,7 +540,57 @@ flex: 50%;
     margin: 0.7em 0em 0em 0em;
 }
 
-
+/* the styles below correspons to the listing components */
+.listing-properties{
+    display: grid;
+    grid-template-columns: auto auto auto;
+     margin: 1em -2em;
+     border: solid 1px black;  
+}
+.list-property{
+    margin:0.5em;
+}
+.list-nature{
+    width: 25%;
+    bottom:14em;
+}
+.list-type{  
+    padding: 0.3rem 0rem;
+    width: 30%;
+    bottom:3.5em;
+ }
+ .list-vutton{  
+    width: 25%;
+    margin-bottom: 3em;
+}
+.list-equipments{
+    margin: 1em 2em 1em 1.5em; 
+ }
+ .list-nature{
+    width: 28%;
+}
+.contact-card{
+    display:flex; 
+    justify-content: space-between;
+}
+.contact-div{
+   margin: 1em 5em;    
+    background:  #EFFDF5;
+    padding: 1.3em;
+    margin-bottom: 7em; 
+}
+.contact-left{
+    flex:50%;
+}
+.contact-right{
+    flex:50%;
+    padding:0em 1em 0em 2.5em;
+    font-size: 15px;
+}
+.contact-btn1,.contact-btn2{
+    padding: 1em 1em;
+}
+/* border: solid 1px black;  */
 
 }
 
