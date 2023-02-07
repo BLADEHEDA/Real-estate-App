@@ -19,7 +19,9 @@ import Button from './Button'
 const Footer = () => {
   return (
     <footer className='footer' >
+  <footer className="footer-wrapper">  
       <section className="footer-section-1"> 
+   
         <footer className="footer-touch">
           <h1 className="footer-touch-header">Get InTouch</h1>
           <footer className="footer-touch-info">
@@ -99,6 +101,7 @@ const Footer = () => {
             </div>
             </footer>
         </section>
+    </footer>      
          <hr className="footer-hr" />
          <section className="footer-section-3 footer-address">
           <div className="footer-address"> 

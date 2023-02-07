@@ -281,4 +281,64 @@ margin-top: -30px;
 .button:hover{
   background :#189d7e ;
 }
+
+/* the lines that follow are the styles fir the desktop footer */
+.footer{
+  padding:5em 5em 2em 5em;
+  }
+.footer-wrapper{
+  display:flex;
+}
+.footer-section-1{
+  flex:50%;
+}
+.footer-touch{
+  margin-right: 5em;
+}
+.footer-link{
+  margin-top: 0.12em;
+}
+.footer-section-2{
+  display: flex;
+  flex:50%;
+}
+.footer-gallery{
+  margin-top:0em;
+  flex: 90%;
+ }
+ .footer-newsletter{
+  margin-left: 3em;
+ }
+.footer-newsletter-info{
+  margin:1em 0em;
+}
+.footer-newsletter-form{
+  margin-left:0.8em;
+}  
+.newsletter-form{
+  padding:0.5em 0em 0em 0em;
+}
+.footer-section-3{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-hr{
+  margin:3em 0em 1.5em 0em;
+}
+
+.footer-address-links{
+  margin-top:0em;
+  margin-left: 3em;
+  flex:30%;
+  font-size:14px;
+
+} 
+
+.footer-address{
+  flex:70%;
+  font-size:14px;
+}
+
+
+
 }
