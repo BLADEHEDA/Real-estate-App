@@ -17,8 +17,6 @@ const Mainbar = () => {
     color:"white" }} /> </div>
    </main>
 
-   <main className='mainbar-right' >
-    </main>
 
     </div>
   )

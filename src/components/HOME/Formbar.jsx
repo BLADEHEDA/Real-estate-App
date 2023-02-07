@@ -34,12 +34,7 @@ const Formbar = () => {
              style={{ color: "#fff",  background: "#0E2E50",width:"100%",height:"100%",
              padding: "1em 0.5em",borderRadius:"5px"}} / >  
             </div>
-      
-           
-            
-          
-            
-         
+  
     </div>
   )
 }

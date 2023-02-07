@@ -22,7 +22,7 @@ const Listing = () => {
       },
       { 
         img:require('../../images/property-2.jpg'),
-        nature:"For rent",
+        nature:"For Rent",
         type:"Villa",
         price:"$12,345",
         mame:"Golden Urban House For Sell",
@@ -46,7 +46,7 @@ const Listing = () => {
       ,
       { 
         img:require('../../images/property-4.jpg'),
-        nature:"For rent",
+        nature:"For Rent",
         type:"Building",
         price:"$12,345",
         mame:"Golden Urban House For Sell",
@@ -70,7 +70,7 @@ const Listing = () => {
       ,
       { 
         img:require('../../images/property-6.jpg'),
-        nature:"For rent",
+        nature:"For Rent",
         type:"Shop",
         price:"$12,345",
         mame:"Golden Urban House For Sell",

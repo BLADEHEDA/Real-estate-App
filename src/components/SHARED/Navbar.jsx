@@ -32,7 +32,7 @@ const Navbar = () => {
   // onMouseLeave={removeHover}
   return (
     <div>
-        <nav className="navbar-mobile mobile px-5 py-3 flex justify-between">
+        <nav className="navbar-mobile mobile px-5 py-3 flex justify-between Navbar">
             <nav className="left flex">
                 <div className="nav-logos"><img src={icon} alt="navlogo" className="nav-logo p-1" /> </div>
                 <nav className="nav-brand text-4xl font-black ml-2 mt-0">MaKaan </nav>
@@ -71,7 +71,7 @@ const Navbar = () => {
                </nav>
           
         </nav>
-        <nav className="navbar-desktop px-5 py-3 flex justify-between desktop">
+        <nav className="navbar-desktop px-5 py-3 flex justify-between desktop Navbar">
         <nav className="left flex">
                 <div className="nav-logos"><img src={icon} alt="navlogo" className="nav-logo p-1" /> </div>
                 <nav className="nav-brand text-4xl font-black ml-2 mt-0">MaKaan </nav>
