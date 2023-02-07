@@ -85,22 +85,25 @@ const Listing = () => {
  
   return (
     <div className='listing'>
-      <div className="listing-preview"> 
+      <section className="listing-preview"> 
+      <article className="listing-div"> 
         <h1 className="listing-header">Property Listing </h1>
         <div className="listing-content">Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut
          dolore lorem kasd vero ipsum sit eirmod sit diam justo sed rebum.</div>
-      </div>
-      <div   className="listing-buttons flex mb-10 " > 
-          <div className="buttons mr-2">
-              <Button style={{width:"100%",borderRadius:"5px",padding:"5px 8px", 
-              color:"white" }} title="Features" /> </div>
-          <div className="buttons mr-2">
-              <Button style={{width:"100%",borderRadius:"5px",padding:"5px 12px", 
-              color:"black",background:"white" ,border:"solid 1px #00B98E" }} title="For Sell" /> </div>
-          <div className="buttons mr-2">
-              <Button style={{width:"100%",borderRadius:"5px",padding:"5px 8px", 
-              color:"black",background:"white",border:"solid 1px #00B98E" }} title="For Rent" /> </div>
-      </div>
+         </article>
+          <articles  className="listing-buttons flex mb-10 " > 
+              <div className="buttons mr-2">
+                  <Button style={{width:"100%",borderRadius:"5px",padding:"5px 8px", 
+                  color:"white" }} title="Features" /> </div>
+              <div className="buttons mr-2">
+                  <Button style={{width:"100%",borderRadius:"5px",padding:"5px 12px", 
+                  color:"black",background:"white" ,border:"solid 1px #00B98E" }} title="For Sell" /> </div>
+              <div className="buttons mr-2">
+                  <Button style={{width:"100%",borderRadius:"5px",padding:"5px 8px", 
+                  color:"black",background:"white",border:"solid 1px #00B98E" }} title="For Rent" /> </div>
+          </articles>
+      
+      </section>
       <div className="listing-properties">
      {properties.map(property=>{
       const {img , nature,type,price,mame,location,area,bed,bath} = property;

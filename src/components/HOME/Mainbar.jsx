@@ -13,7 +13,7 @@ const Mainbar = () => {
    <p className="main-content">Find Top class homes and Appartments with no stress from the comfort of your home . 
    justget to us and get your deals satisfied atanaffordable price </p>
    
-    <div className="btn-main"> <Button title=" Get Started" style={{width:"100%",borderRadius:"6px",padding:"18px",
+    <div className="btn-main"> <Button title=" Get Started" style={{width:"100%",borderRadius:"6px",padding:"15px",
     color:"white" }} /> </div>
    </main>
 

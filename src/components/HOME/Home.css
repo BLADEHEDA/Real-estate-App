@@ -104,6 +104,7 @@
 }
 .property-card:hover {
 background: #00B98E;
+color:#EFFDF5;
 }
 .property-image-div{
  border:dashed 1px #00B98E ; 
@@ -438,6 +439,11 @@ width: 3em;
     margin: 1em 2em 1em 1.5em; 
  }
  /* The styles below os for the ownership component */
+ .properties-title{
+    color: #0E2E50;
+    font-size: 2.5em;
+    font-weight:500;
+}
  .properties-content{
     font-weight: 400;
     line-height: 1.5;
@@ -445,6 +451,7 @@ width: 3em;
     width: 80%;
     margin: 0 auto;
 }
+
  /* the lines below illustrates the styles of the formbar component */
  .formbar{
     padding: 2em 8em;
@@ -490,3 +497,55 @@ width: 3em;
         width: 40%;
     }
 }
+/* The designs that follow are the designs for the desktop view */
+@media only screen and (min-width:992px){
+    /*the design for the main bar */
+       .btn-main{
+        width: 30%;
+    }
+     /* the lines below illustrates the styles of the formbar component */
+ .formbar{
+    padding: 2em 5em;
+    margin-bottom: 4em;
+}
+/* the lines that follow are for the ownership copmonent */
+.properties-content{
+    width: 75%;
+}
+.properties{
+    grid-template-columns: auto auto auto auto;
+    margin: 2em -2em;
+}
+.property-card{
+    padding: 1em;
+}
+.place{
+    display:flex;
+    margin: 2em 5em;
+}
+.listing-preview{
+    display:flex;
+    margin: 2em -2em;
+
+    justify-content: space-between;
+}
+.listing-div{
+flex: 50%;
+}
+.listing-buttons{
+    flex: 50%;
+    justify-content: end;
+    padding-top: 5em;
+}
+.listing-content{
+    margin: 0.7em 0em 0em 0em;
+}
+
+
+
+}
+
+
+
+
+

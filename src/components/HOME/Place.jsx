@@ -29,7 +29,7 @@ const Place = () => {
                     <div className="checkmark  mt-1  mr-3">    <img src={checkmark} alt="checkmark" className="check" />    </div>
                     <div className="list-content"> Clita duo justo magna dolore erat amet</div>
                     </p>
-                    <div className="place-btn"><Button style={{width:"100%",borderRadius:"6px",padding:"18px", color:"white" }} title="Read more" /> </div>
+                    <div className="place-btn"><Button style={{width:"100%",borderRadius:"6px",padding:"14px", color:"white" }} title="Read more" /> </div>
             </div>
         </div>
       
