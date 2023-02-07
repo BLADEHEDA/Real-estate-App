@@ -545,7 +545,6 @@ flex: 50%;
     display: grid;
     grid-template-columns: auto auto auto;
      margin: 1em -2em;
-     border: solid 1px black;  
 }
 .list-property{
     margin:0.5em;
@@ -575,9 +574,7 @@ flex: 50%;
 }
 .contact-div{
    margin: 1em 5em;    
-    background:  #EFFDF5;
-    padding: 1.3em;
-    margin-bottom: 7em; 
+    margin-bottom: 4em; 
 }
 .contact-left{
     flex:50%;
@@ -590,6 +587,30 @@ flex: 50%;
 .contact-btn1,.contact-btn2{
     padding: 1em 1em;
 }
+.agents{
+/* border: solid 1px black;  */
+margin: 1em 5em; 
+}
+.agents-content{
+    width:70%;
+    font-size:15px;
+}
+.agents-imfo-div{
+    grid-template-columns:auto auto auto auto;
+}
+.agents-info{
+    width: 60%;
+    left: 4em;
+
+}
+.testimonial-content{
+    width:70%;
+    margin:0 auto;
+    border: solid 1px black; 
+}
+
+
+
 /* border: solid 1px black;  */
 
 }
