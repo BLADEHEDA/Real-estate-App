@@ -186,7 +186,6 @@ background: rgb(249, 246, 246);
 /* the lines below are the styles for the tablet version of our app  */
 @media only screen and (min-width:768px){
 
-
 /* the ;ines that folloe are for the footer component */
 .footer{
   padding:6em 9em 2em 9em;

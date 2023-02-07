@@ -75,6 +75,7 @@
 /* The lines thatfollow are the styles for thr ownership component */
 .ownaership,.listing{
   margin:0em 7em;
+  border:solid 1px black;
 }
 .properties-section{
     text-align: center;
@@ -133,7 +134,8 @@ color: #00B98E;
 }
 /* the lines thatfollow are the styles for the places component  */
 .place{
-    margin:0em 7em;      
+    margin:0em 7em;     
+    border:solid 1px red; 
 }
 .place-left{
 background: linear-gradient(90deg, #00B98E 0%, rgb(255, 255, 255) 51%, rgb(251, 251, 251) 51%, rgb(249, 246, 246) 0%);
@@ -378,25 +380,44 @@ width: 3em;
     font-weight: bold;
     padding-left: 1em;
 }
-
-    
-
-
-
-
-
-
-
-
-
-
 .show{
     display: block;
 }
-
-
 }
 @media only screen and (min-width:768px){
+/* the lines below inclued s the styles for the agent component */
+.agents-header{
+    font-size: 2.1em
+}
+.agents-content{
+    margin:0 auto;
+    margin-bottom: 1em;
+    width:80%;
+}
+.agents-imfo-div{
+     display: grid;
+    grid-template-columns: auto auto;
+}
+.agents-info{
+    width: 40%;
+    left: 7em;
+}
+.agent-card{
+    margin: 0.75em;
+} 
+/* the lines below are the styles of the testimonial component */
+.testimonial-content{
+    width:80%;
+    margin:0 auto;
+}
+/* style thatfollow correspond the contact component   */
+.contact-div{
+    margin-bottom: 4em;
+}
+
+
+
+
     .mainbar{
         display: flex;
         padding-left: 3em;
