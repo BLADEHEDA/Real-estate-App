@@ -21,7 +21,6 @@ const Home = () => {
       <Contact/>
       <Agents/>
       <Testimonial/>
-      <Footer/>
     </div>
   )
 }
