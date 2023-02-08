@@ -394,14 +394,46 @@ width: 3em;
 }
 @media only screen and (min-width:482px){
     .testimonial{
-        margin:0em 7em; 
-        padding-bottom: 3em; 
-
-        background:blue;
-        margin:0em;
-        padding:0em;
         border:solid 4px black;
     }
+    .list-equipments{
+        margin: 0em 2em 2em 2.5em; 
+     }
+     .list-vutton{ 
+        width: 55%;
+        margin-bottom: 5em;
+    }
+    .main-title{
+        font-weight: 700;
+        padding-right: 0em;
+    }
+    .btn-main{
+        width: 40%;
+    }
+    .formbar{
+        padding: 2em 0em;
+        margin-bottom: 5em;
+    }
+    .home-options{ 
+        width: 80%;
+    }
+    .input{
+        width: 80%;
+    }
+    .place-btn{
+        width: 35%;  
+    }
+    .list-nature{
+        width:20%;
+        bottom:17em;
+    }
+    .list-type{
+        width: 25%;
+     }
+     .contact-div{
+        margin-bottom: 5em;
+    }
+
 }
 @media only screen and (min-width:768px){
 /* the lines below inclued s the styles for the agent component */
