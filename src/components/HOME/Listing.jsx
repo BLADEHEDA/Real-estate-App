@@ -120,7 +120,7 @@ const Listing = () => {
       </div>
       <section className="list-equipments flex justify-between">  
         <article className="area flex">  
-        <div className="listarea  mr-1"> <img src={ruler } alt="" className="area-img " /> </div>
+        <div className="listarea  mr-1"> <img src={ruler } alt="ruler-img" className="area-img " /> </div>
         <div className="list-area"> {area} </div>
         </article>
           <article className="bed flex "> 

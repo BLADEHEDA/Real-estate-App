@@ -33,7 +33,7 @@
     /* the lines below illustrates the styles of the formbar component */
     .formbar{
         background:   #00B98E ;
-        padding: 2em;
+        padding: 2em 0em;
         margin-bottom: 5em;
     }
     .input{
@@ -77,15 +77,15 @@
 /* The lines thatfollow are the styles for thr ownership component */
 .ownaership,.listing{
   margin:0em 1.5em;
-  border:solid 1px black;
 }
 .properties-section{
     text-align: center;
 }
 .properties-title{
     color: #0E2E50;
-    font-size: 3em;
+    font-size: 1.8em;
     font-weight:500;
+    margin-bottom:0.2em;
 }
 .properties-content{
     font-weight: 400;
@@ -131,13 +131,11 @@ color: #00B98E;
  
 }
 .properties{
-    display: grid;
-    grid-template-columns: auto auto;
     margin:2em 0em;
 }
 /* the lines thatfollow are the styles for the places component  */
 .place{
-    margin:0em 1em;     
+    margin:0em 1.5em;   
 }
 .place-left{
 background: linear-gradient(90deg, #00B98E 0%, rgb(255, 255, 255) 51%, rgb(251, 251, 251) 51%, rgb(249, 246, 246) 0%);
@@ -150,7 +148,7 @@ padding: 3em;
     color: #666565
 }
 .place-header{
-    font-size: 2.2rem;
+    font-size: 1.7rem;
     font-weight: 700;
     line-height: 1;
     color: #0E2E50;
@@ -165,7 +163,7 @@ padding: 3em;
     margin-bottom: 5em;
 }
 .place-btn{
-    width: 30%;
+    width: 50%;
     margin: 2em 0em;   
 }
 /* the lines thatfollow are the styles for the listing component  */
@@ -182,20 +180,19 @@ padding: 3em;
 .list-nature{
     background: #00B98E;
     color: white;
-    padding: 0.25rem 0.75rem;
+    padding: 0.25rem 0.5rem;
     border-radius: 5px;
-    width: 25%;
+    width: 30%;
     position: relative;
-    bottom:18em;
+    bottom:10em;
     left: 1.5em;
-    border:solid 1px black;
 }
 .list-type{
    color:#00B98E; 
    background: white;
    border-radius: 5px;
-   padding: 0.3rem 0.75rem;
-   width: 20%;
+   padding: 0.3rem 0.5rem;
+   width: 36%;
    position: relative;
    bottom:3.5em;
    left: 1.5em;
@@ -213,7 +210,7 @@ padding: 3em;
     margin: 0em 0em 0em 1em;
 }
 .location-img{
-    width: 1em;
+    width: 0.8em;
     margin-top: 2px;
     margin-right: 8px;
 }
@@ -226,12 +223,16 @@ padding: 3em;
     font-size: 16px;
 }
 .area-img {
-    height: 23px;
+    height: 21px;
 }
 .list-vutton{ 
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
     margin-bottom: 7em;
+}
+.list-equipments {
+    margin: 1.5em 0em 2em 3px;
+    font-size: 14px;
 }
 /* style thatfollow correspond the contact component   */
 .contact-div{
