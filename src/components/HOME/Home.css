@@ -22,7 +22,7 @@
         color: #666565;
     }
     .btn-main{
-        width: 25%;
+        width: 50%;
     }
     .mainbar-right{
         padding-left: 0em;
@@ -243,14 +243,14 @@ padding: 3em;
 }
 .contact-card{
     background: white;
-    padding: 1.5em;
+    padding: 1em;
 }
 .contact-header{
     font-family: "Inter",sans-serif;
     font-weight: 700;
     line-height: 1.1;
     color: #0E2E50;
-    font-size: 2.2em;
+    font-size: 1.7em;
     margin: 1.2em  1em   0.5em 0em ;
 }
 .contact-content{
