@@ -17,9 +17,9 @@ background: rgb(249, 246, 246);
 }
 .Navbar{
   background:white;
-  /* position: fixed; */
-  /* top: 0;       
-  width: 100%; */
+  position: fixed; 
+ top: 0;       
+  width: 100%;
 }
 
 @media only screen and (min-width:1px){
