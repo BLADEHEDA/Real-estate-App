@@ -29,7 +29,16 @@ const Navbar = () => {
     setshow1();
     setshow2();
   }
-  // onMouseLeave={removeHover}
+  // Toggle the menu whenyou hovwe on it on mouse hover option1
+  const Rollover1=()=>{
+    setshow2();
+    setshow1(show1);
+  }
+  // Toggle the menu whenyou hovwe on it on mouse hover
+  const Rollover2=()=>{
+    setshow2(show2);
+    setshow1();
+  }
   return (
     <div>
         <nav className="navbar-mobile mobile px-5 py-3 flex justify-between Navbar">
@@ -86,7 +95,7 @@ const Navbar = () => {
                     <div className="propname" >PROPERTIES</div>
                     <div className="propimage"><img src={arrowdown} alt="arrow down icon"className={`dropdown `} /> </div> 
                   </div>
-                  <ul className={`options options1 ${display1}`}>
+                  <ul onMouseEnter={Rollover1}  onMouseLeave={Rollover2}  className={`options options1 ${display1}`}>
                     <li className="option">property list</li>
                     <li className="option">Property Type</li>
                     <li className="option">property Agent</li>
@@ -99,7 +108,7 @@ const Navbar = () => {
                     <div className="propimage"><img src={arrowdown} alt="arrow down icon" className={`dropdown`}  /> </div> 
                   </div>
                   
-                  <ul className={`options options2 ${display2}`}>
+                  <ul  onMouseEnter={Rollover2} onMouseLeave={Rollover1} className={`options options2 ${display2}`}>
                     <li className="option" onhov >Testimonial </li>
                     <li className="option">404 Error</li>
                   </ul>

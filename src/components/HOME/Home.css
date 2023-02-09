@@ -1,4 +1,7 @@
 @media only screen and (min-width:1px){
+    .Home{
+        margin-top:4em;
+    }
     .mainbar{
         background: whitesmoke;
     }
@@ -107,6 +110,9 @@
 background: #00B98E;
 color:#EFFDF5;
 }
+.property-count-div:hover{
+    color:white;  
+}
 .property-image-div{
  border:dashed 1px #00B98E ; 
  border-radius: 50%;
@@ -127,7 +133,7 @@ color:#EFFDF5;
  text-align: center;
  margin-top: 0.3em;
 color: #00B98E;
- 
+
 }
 .properties{
     margin:2em 0em;

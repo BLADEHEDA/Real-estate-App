@@ -8,11 +8,18 @@
   background-color: #00B98E;
   border-color: #00B98E;
 }
+.btn-1:hover{
+  background-color: #14c99f;
+}
+
 .App{
 background: rgb(249, 246, 246);
 }
 .Navbar{
   background:white;
+  position: fixed;
+  top: 0;       
+  width: 100%;
 }
 
 @media only screen and (min-width:1px){
@@ -47,6 +54,7 @@ background: rgb(249, 246, 246);
   color: var(--dark);
   padding-left: 1em;
   display: none;
+background: white;
 }
 .hidden-nav{
   position: absolute;
@@ -282,8 +290,13 @@ background: rgb(249, 246, 246);
   .option{
     padding-top: 0.3em;
   }
+  .option:hover{
+  color: #00B98E;
+  cursor: pointer;
+  }
   .navlinks:hover{
     color: #00B98E ;
+    width: 100;
   }
   .button{
 background: #00B98E ;
