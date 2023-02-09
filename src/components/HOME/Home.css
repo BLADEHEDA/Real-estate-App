@@ -395,10 +395,6 @@ width: 3em;
 .show{
     display: block;
 }
-/* .person-testimonials{
-    border: solid 1px black;
-    margin: 1em 0em;
-} */
 .person-content{
     padding: 1em 1em;
     background: white;
@@ -448,8 +444,6 @@ width: 3em;
      .contact-div{
         margin-bottom: 5em;
     }
-    
-
 }
 @media only screen and (min-width:768px){
 /* the lines below inclued s the styles for the agent component */
