@@ -1,7 +1,9 @@
 @media only screen and (min-width:1px){
+    .main-contents{
+        display: flex;     
+    }
     .mainbar-left{
-        border:solid 1px black;
-        padding-top: 10em;
+        padding-top: 3em;
     }
     .nav-pages{
         margin-right: 1.5em;
@@ -22,7 +24,8 @@
 @media only screen and (min-width:482px){
 
 }
-@media only screen and (min-width:768px){}
-.main-contents{
-    display: flex;     
+@media only screen and (min-width:768px){
+    .mainbar-left{
+        padding-top: 7em;
+    }
 }
