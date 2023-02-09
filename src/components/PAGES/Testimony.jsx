@@ -5,7 +5,6 @@ import Formbar from '../HOME/Formbar'
 import Testimonial from '../HOME/Testimonial'
 import Main from '../SHARED/Main'
 
-
 const Testimony = () => {
   return (
     <div className='Testimony'>

@@ -6,7 +6,6 @@ import Contact from '../HOME/Contact'
 import Formbar from '../HOME/Formbar'
 import Main from '../SHARED/Main'
 
-
 const PropertyAgents = () => {
   return (
     <div className='PPropertyAgents'>

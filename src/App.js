@@ -9,7 +9,6 @@ import PropertyType from './components/PROPERTY/PropertyType';
 import PropertyAgents from './components/PROPERTY/PropertyAgents';
 import Testimony from './components/PAGES/Testimony';
 
-
 function App() {
   return (
     <div className="App">
