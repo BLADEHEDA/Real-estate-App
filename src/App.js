@@ -5,6 +5,7 @@ import Home from './components/HOME/Home';
 import Footer from './components/SHARED/Footer';
 import About from './components/ABOUT/About';
 import PropertyList from './components/PROPERTY/PropertyList';
+import PropertyType from './components/PROPERTY/PropertyType';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
     <Navbar/>
    {/* <Home/> */}
    {/* <About/> */}
-   <PropertyList/>
+   {/* <PropertyList/> */}
+   <PropertyType/>
    <Footer/>
     </div>
   );

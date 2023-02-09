@@ -587,7 +587,7 @@ width: 3em;
 }
 /* the lines that follow are for the ownership copmonent */
 .properties-content{
-    width: 75%;
+    width: 55%;
 }
 .properties{
     display: grid;
