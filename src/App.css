@@ -138,7 +138,7 @@ background: rgb(249, 246, 246);
   border:solid 1px rgb(181, 169, 169); 
   display:flex;
   padding:0.4em;
-  margin:1em 4em;
+  margin:1em 0em;
   border-radius:6px;
 }
 .footer-newsletter-btn{
@@ -179,10 +179,18 @@ background: rgb(249, 246, 246);
 }
 .footer-address-links{
   margin:0 auto;
-  width:50%;
+  width:100%;
   justify-content:space-between;
   margin-top:1em;
 }
+/* .footer-newsletter-info{
+  border:solid 1px rgb(181, 169, 169); 
+  display:flex;
+  padding:0.4em;
+  margin:1em 0em;
+  border-radius:6px;
+  border: solid 2px white ;
+} */
 
 }
 @media only screen and (min-width:482px){

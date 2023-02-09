@@ -8,9 +8,6 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
-import 'swiper/css';
-
 // let me create the testimony prop 
 const Person =(props)=>{
     
@@ -71,7 +68,6 @@ const Testimonial = () => {
             {/* </div> */}
       </SplideSlide>
       <SplideSlide>
-      {/* <div className="person-testimonial">      */}
                 <Person
                 src={testinonial1}
                 profession="Profession"
@@ -79,12 +75,9 @@ const Testimonial = () => {
                 content=" Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Fugiat sint quo repellat aperiam nisi tempore praesentium expedita libero, fugit,
                 non corporis harum  " 
-                />
-            {/* </div> */}
-            
+                />        
       </SplideSlide>
     </Splide>
-
     </div>
   )
 }

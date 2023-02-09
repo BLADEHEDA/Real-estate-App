@@ -368,12 +368,12 @@ padding: 3em;
     padding: 3em;
 }
 .person-content{
- padding: 1em 4em;
+ padding: 1em 1em;
  background: white;
 }
 .person-info{
 display: flex;
-padding: 0em 4em 1em 4em;
+padding: 0em 1em 1em 1em;
 background: white;
 }
 .person-pic-img{
@@ -390,6 +390,19 @@ width: 3em;
 .show{
     display: block;
 }
+/* .person-testimonials{
+    border: solid 1px black;
+    margin: 1em 0em;
+} */
+.person-content{
+    padding: 1em 1em;
+    background: white;
+   }
+   .person-info{
+   display: flex;
+   padding: 0em 1em 1em 1em;
+   background: white;
+   }
 
 }
 @media only screen and (min-width:482px){
@@ -430,6 +443,7 @@ width: 3em;
      .contact-div{
         margin-bottom: 5em;
     }
+    
 
 }
 @media only screen and (min-width:768px){
@@ -571,8 +585,10 @@ width: 3em;
     width: 75%;
 }
 .properties{
+    display: grid;
     grid-template-columns: auto auto auto auto;
-    margin: 2em -2em;
+    margin: 2em 3.5em;
+    border: solid 1px black;
 }
 .property-card{
     padding: 1em;
@@ -580,11 +596,13 @@ width: 3em;
 .place{
     display:flex;
     margin: 2em 5em;
+    border: solid 1px black;
 }
 .listing-preview{
     display:flex;
-    margin: 0em -2em;
+    margin: 0em 3.5em;
     justify-content: space-between;
+    border: solid 1px black;
 }
 .listing-div{
 flex: 50%;
@@ -602,7 +620,8 @@ flex: 50%;
 .listing-properties{
     display: grid;
     grid-template-columns: auto auto auto;
-     margin: 1em -2em;
+     margin: 1em 3.5em;
+     border: solid 1px black;
 }
 .list-property{
     margin:0.5em;
@@ -664,6 +683,11 @@ margin: 1em 5em;
 .testimonial-content{
     width:70%;
     margin:0 auto;
+
+}
+.person-testimonials{
+    border: solid 1px black;
+    margin: 1em 5em;
 }
 
 
