@@ -183,23 +183,20 @@ background: rgb(249, 246, 246);
   justify-content:space-between;
   margin-top:1em;
 }
-/* .footer-newsletter-info{
-  border:solid 1px rgb(181, 169, 169); 
-  display:flex;
-  padding:0.4em;
-  margin:1em 0em;
-  border-radius:6px;
-  border: solid 2px white ;
-} */
 
 }
 @media only screen and (min-width:482px){
   .footer{
     background: #0E2E50;
-    padding:6em 6em 2em 6em;
+    padding:6em 2em 2em 2em;
     margin:0em ; 
     }
-
+    .footer-address-links{
+      margin:0 auto;
+      width:75%;
+      justify-content:space-between;
+      margin-top:1em;
+    }
 }
 /* the lines below are the styles for the tablet version of our app  */
 @media only screen and (min-width:768px){

@@ -1,6 +1,4 @@
 @media only screen and (min-width:1px){
-
-/* @media only screen and (min-width:481px){ */
     .mainbar{
         background: whitesmoke;
     }
@@ -11,6 +9,7 @@
         padding-right: 2em;
         margin-bottom: 0.7em;
     }
+
     .main-span{
         color: #00B98E;
     }
@@ -493,7 +492,7 @@ width: 3em;
     margin:0.5em;
 }
 .list-nature{
-    width: 28%;
+    width: 25%;
     bottom:14em;
 }
 .list-type{  
@@ -588,7 +587,6 @@ width: 3em;
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin: 2em 3.5em;
-    border: solid 1px black;
 }
 .property-card{
     padding: 1em;
@@ -596,13 +594,11 @@ width: 3em;
 .place{
     display:flex;
     margin: 2em 5em;
-    border: solid 1px black;
 }
 .listing-preview{
     display:flex;
     margin: 0em 3.5em;
     justify-content: space-between;
-    border: solid 1px black;
 }
 .listing-div{
 flex: 50%;
@@ -621,13 +617,12 @@ flex: 50%;
     display: grid;
     grid-template-columns: auto auto auto;
      margin: 1em 3.5em;
-     border: solid 1px black;
 }
 .list-property{
     margin:0.5em;
 }
 .list-nature{
-    width: 25%;
+    width: 28%;
     bottom:14em;
 }
 .list-type{  
@@ -678,15 +673,12 @@ margin: 1em 5em;
 .agents-info{
     width: 60%;
     left: 4em;
-
 }
 .testimonial-content{
     width:70%;
     margin:0 auto;
-
 }
 .person-testimonials{
-    border: solid 1px black;
     margin: 1em 5em;
 }
 
