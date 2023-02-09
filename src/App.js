@@ -6,6 +6,7 @@ import Footer from './components/SHARED/Footer';
 import About from './components/ABOUT/About';
 import PropertyList from './components/PROPERTY/PropertyList';
 import PropertyType from './components/PROPERTY/PropertyType';
+import PropertyAgents from './components/PROPERTY/PropertyAgents';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
    {/* <Home/> */}
    {/* <About/> */}
    {/* <PropertyList/> */}
-   <PropertyType/>
+   {/* <PropertyType/> */}
+   <PropertyAgents/>
    <Footer/>
     </div>
   );
