@@ -7,6 +7,8 @@ import About from './components/ABOUT/About';
 import PropertyList from './components/PROPERTY/PropertyList';
 import PropertyType from './components/PROPERTY/PropertyType';
 import PropertyAgents from './components/PROPERTY/PropertyAgents';
+import Testimony from './components/PAGES/Testimony';
+
 
 function App() {
   return (
@@ -16,7 +18,8 @@ function App() {
    {/* <About/> */}
    {/* <PropertyList/> */}
    {/* <PropertyType/> */}
-   <PropertyAgents/>
+   {/* <PropertyAgents/> */}
+   <Testimony/>
    <Footer/>
     </div>
   );

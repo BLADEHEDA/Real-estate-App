@@ -4,7 +4,6 @@ import "../HOME/Home.css"
 import Agents from '../HOME/Agents'
 import Contact from '../HOME/Contact'
 import Formbar from '../HOME/Formbar'
-import Testimonial from '../HOME/Testimonial'
 import Listing from '../HOME/Listing'
 import Main from '../SHARED/Main'
 
