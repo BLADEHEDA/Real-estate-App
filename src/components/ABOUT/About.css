@@ -20,8 +20,28 @@
         color: #0E2E50;
     }
     .Error-div{
-        border: solid 1px black;
+        text-align: center; 
+        color: #0E2E50;
+        margin-bottom: 5em;
+    }
+    .Error-img-div{
+        width: 7%;
         margin: 0 auto;
+    }
+    .Error-head{
+        font-size: calc(3.5rem + 2vw);
+        font-weight: 900;
+    }
+    .Error-head-2{
+        font-size: calc(1rem + 1.5vw);
+        font-weight: 700;  
+        margin: -0.5em 0em 0.5em 0em ;
+    }
+    .Error-content{
+        width:45%;
+        margin: 0 auto;
+        margin-bottom: 1.2em;
+        font-size: 15px;
     }
 
 }
