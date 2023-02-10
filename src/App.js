@@ -8,6 +8,7 @@ import PropertyList from './components/PROPERTY/PropertyList';
 import PropertyType from './components/PROPERTY/PropertyType';
 import PropertyAgents from './components/PROPERTY/PropertyAgents';
 import Testimony from './components/PAGES/Testimony';
+import Error from './components/PAGES/Error';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
    {/* <PropertyList/> */}
    {/* <PropertyType/> */}
    {/* <PropertyAgents/> */}
-   <Testimony/>
+   {/* <Testimony/> */}
+   <Error/>
    <Footer/>
     </div>
   );
