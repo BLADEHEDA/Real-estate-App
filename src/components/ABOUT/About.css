@@ -19,6 +19,10 @@
         margin-bottom: 0.3em;
         color: #0E2E50;
     }
+    .Error-div{
+        border: solid 1px black;
+        margin: 0 auto;
+    }
 
 }
 @media only screen and (min-width:482px){
