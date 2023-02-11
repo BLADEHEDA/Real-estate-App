@@ -63,7 +63,7 @@ const Navbar = () => {
                   <Link to="/PrpertyAgents">  <li className="option">property Agent</li> </Link> 
                   </ul> 
                 </li>  
-                <Link to=""> </Link> 
+                {/* <Link to=""> </Link>  */}
                 <li className="navlinks">
                   <div className="ptoptertes flex" onClick={toggleshow2} >
                     <div className="propname">PAGES</div>
@@ -75,7 +75,7 @@ const Navbar = () => {
                       <Link to="/404Error"> <li className="option">404 Error</li> </Link>  
                   </ul>
                 </li> 
-                <li className="navlinks">CONTACT</li>
+                <Link to="/Contact"> <li className="navlinks">CONTACT</li> </Link> 
                </ul>
                
                </nav>
@@ -114,7 +114,7 @@ const Navbar = () => {
                       <Link to="/404Error"> <li className="option">404 Error</li> </Link>  
                   </ul>
                 </li> 
-                <li className="navlinks">CONTACT</li>
+                <Link to="/Contact"> <li className="navlinks">CONTACT</li> </Link> 
                 <Link to="/"> <li className="navlinks"> <button className='button'>Add Property</button> </li>   </Link>  
                </ul>
                </nav>
