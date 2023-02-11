@@ -6,17 +6,20 @@ import Formbar from '../HOME/Formbar'
 import Place from '../HOME/Place'
 import Testimonial from '../HOME/Testimonial'
 import MainHero from './MainHero'
+import Navbar from '../SHARED/Navbar'
+import Footer from '../SHARED/Footer'
 
 const About = () => {
   return (
     <div className='About'>
-        <MainHero/>
+      <Navbar/>
+      <MainHero/>
       <Formbar/>
       <Place/>
       <Contact/>
       <Agents/>
       <Testimonial/>
-
+      <Footer/>
     </div>
   )
 }

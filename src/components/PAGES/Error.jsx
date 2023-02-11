@@ -5,10 +5,14 @@ import Main from '../SHARED/Main'
 import erroIcon from "../../images/icons8-error-100 (1).png"
 import"../ABOUT/About.css"
 import "../HOME/Home.css"
+import Navbar from '../SHARED/Navbar'
+import Footer from '../SHARED/Footer'
+
 
 const Error = () => {
   return (
     <div className='Error'>
+          <Navbar/>
       <Main title="404 Error" content="404 ERROR"/>
       <Formbar/>
       <div className="Error-div">  
@@ -19,8 +23,9 @@ const Error = () => {
         Maybe go to our home page or try to use a search?</p>
         <Button  title=" Go Back To Home"
         style={{ color:"white", padding:"1em 2em",borderRadius:"5px" }}
-        />
+        /> 
     </div>
+       <Footer/>
     </div>
   )
 }

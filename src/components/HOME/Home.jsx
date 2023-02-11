@@ -8,11 +8,14 @@ import Listing from './Listing'
 import Contact from './Contact'
 import Agents from './Agents'
 import Testimonial from './Testimonial'
-import Footer from "../SHARED/Footer"
+import Navbar from '../SHARED/Navbar'
+import Footer from '../SHARED/Footer'
+
 
 const Home = () => {
   return (
     <div className='Home'>
+      <Navbar/>
       <Mainbar/>
       <Formbar/>
       <Ownership/>
@@ -21,6 +24,7 @@ const Home = () => {
       <Contact/>
       <Agents/>
       <Testimonial/>
+      <Footer/>
     </div>
   )
 }

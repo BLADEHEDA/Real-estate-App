@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { BrowserRouter,  Routes,Route,Link} from "react-router-dom";
 import icon from "../../images/icon-deal.png"
 import hamburger from "../../images/icon-hamburger.svg"
 import arrowdown from "../../images/icons8-down-24.png"
@@ -49,20 +50,20 @@ const Navbar = () => {
             <nav className="right">
                <div className="nav-button mt-1" onClick={toggleshow} ><img src={hamburger} alt="hamburger-btn" />  </div> 
                <ul className={`hidden-nav mt-4 pt-2 ${display}`}   >
-                <li className="navlinks">HOME</li>
-                <li className="navlinks">ABOUT</li>
+                <lINK to="/" className="navlinks">HOME</lINK>
+                <Link to="/About" className="navlinks">ABOUT</Link>
                 <li className="navlinks">
                   <div className="ptoptertes flex" onClick={toggleshow1}  >
                     <div className="propname" >PROPERTIES</div>
                     <div className="propimage"><img src={arrowdown} alt="arrow down icon"className={`dropdown ${rotate}`} /> </div> 
-                  </div>
+                   </div>
                   <ul className={`options ${display1}`}>
-                    <li className="option">property list</li>
-                    <li className="option">Property Type</li>
-                    <li className="option">property Agent</li>
+                  <Link to="/PropertyList"> <li  className="option">property list</li></Link>  
+                  <Link to ="/PropertyType"> <li  className="option">Property Type</li> </Link> 
+                  <Link to="/PrpertyAgents">  <li className="option">property Agent</li> </Link> 
                   </ul> 
                 </li>  
-           
+                <Link to=""> </Link> 
                 <li className="navlinks">
                   <div className="ptoptertes flex" onClick={toggleshow2} >
                     <div className="propname">PAGES</div>
@@ -70,8 +71,8 @@ const Navbar = () => {
                   </div>
                   
                   <ul className={`options ${display2}`}>
-                    <li className="option">Testimonial </li>
-                    <li className="option">404 Error</li>
+                  <Link to="/Testimony"> <li className="option" onhov >Testimonial </li> </Link>   
+                      <Link to="/404Error"> <li className="option">404 Error</li> </Link>  
                   </ul>
                 </li> 
                 <li className="navlinks">CONTACT</li>
@@ -85,20 +86,20 @@ const Navbar = () => {
                 <div className="nav-logos"><img src={icon} alt="navlogo" className="nav-logo p-1" /> </div>
                 <nav className="nav-brand text-4xl font-black ml-2 mt-0">MaKaan </nav>
             </nav>  
-    
+           
            <nav className="right">
                <ul className={`shown-nav  pt-3  flex`}   >
-                <li className="navlinks">HOME</li>
-                <li className="navlinks">ABOUT</li>
+                <Link to="/" className="navlinks">HOME</Link>
+                <Link to="/About" className="navlinks">ABOUT</Link>
                 <li className="navlinks">
                   <div className="ptoptertes flex" onMouseEnter={toggleshow1} onMouseLeave={removeHover} >
                     <div className="propname" >PROPERTIES</div>
                     <div className="propimage"><img src={arrowdown} alt="arrow down icon"className={`dropdown `} /> </div> 
                   </div>
                   <ul onMouseEnter={Rollover1}  onMouseLeave={Rollover2}  className={`options options1 ${display1}`}>
-                    <li className="option">property list</li>
-                    <li className="option">Property Type</li>
-                    <li className="option">property Agent</li>
+                  <Link to="/PropertyList"> <li  className="option">property list</li></Link>  
+                  <Link to ="/PropertyType"> <li  className="option">Property Type</li> </Link> 
+                  <Link to="/PrpertyAgents">  <li className="option">property Agent</li> </Link> 
                   </ul> 
                 </li>  
            
@@ -109,12 +110,12 @@ const Navbar = () => {
                   </div>
                   
                   <ul  onMouseEnter={Rollover2} onMouseLeave={Rollover1} className={`options options2 ${display2}`}>
-                    <li className="option" onhov >Testimonial </li>
-                    <li className="option">404 Error</li>
+                      <Link to="/Testimony"> <li className="option" onhov >Testimonial </li> </Link>   
+                      <Link to="/404Error"> <li className="option">404 Error</li> </Link>  
                   </ul>
                 </li> 
                 <li className="navlinks">CONTACT</li>
-                <li className="navlinks"> <button className='button'>Add Property</button> </li>  
+                <Link to="/"> <li className="navlinks"> <button className='button'>Add Property</button> </li>   </Link>  
                </ul>
                </nav>
                </nav>
