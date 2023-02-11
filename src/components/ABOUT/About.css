@@ -43,6 +43,33 @@
         margin-bottom: 1.2em;
         font-size: 15px;
     }
+    .contactnav-head{
+        font-size: calc(1.3rem + 1.5vw);
+        font-weight: 700; 
+        color: #0E2E50;
+        text-align: center; 
+        margin-bottom: 0.3em;
+    }
+    .contact0nav-content{
+        width:70%;
+        margin: 0 auto;
+        margin-bottom: 1.2em;
+        font-size: 15px;
+        text-align: center;
+    }
+    .contact-nav-info-div{
+        display: flex;
+        border:solid 1px black;
+        width:70%;
+        margin: 0 auto;
+        margin-bottom: 3.2em;
+        justify-content: space-between;
+    }
+    .contactnav-info{
+        display: flex;
+        border:solid 1px black;
+       
+    }
 
 }
 @media only screen and (min-width:482px){
@@ -57,5 +84,8 @@
     }
         .Error-content{
         width:45%;
+    }
+    .contact0nav-content{
+        width:50%;
     }
 }
