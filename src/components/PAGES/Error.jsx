@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter,  Routes,Route,Link} from "react-router-dom";
 import Formbar from '../HOME/Formbar'
 import Button from '../SHARED/Button'
 import Main from '../SHARED/Main'
@@ -21,9 +22,12 @@ const Error = () => {
         <h2 className="Error-head-2">Page Not FOund</h2>
         <p className="Error-content"> We’re sorry, the page you have looked for does not exist in our website! 
         Maybe go to our home page or try to use a search?</p>
+        <Link to ="/">
         <Button  title=" Go Back To Home"
         style={{ color:"white", padding:"1em 2em",borderRadius:"5px" }}
         /> 
+        </Link>
+      
     </div>
        <Footer/>
     </div>
