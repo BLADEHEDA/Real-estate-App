@@ -7,24 +7,27 @@ import PropertyType from './components/PROPERTY/PropertyType';
 import PropertyAgents from './components/PROPERTY/PropertyAgents';
 import Testimony from './components/PAGES/Testimony';
 import Error from './components/PAGES/Error';
+import ContactNav from "./components/CONTACT/ContactNav";
 
 
 
 function App() {
   return (
     <BrowserRouter className="App">
-      <Routes> 
-    <Route path='/' element={<Home/>} />
+      {/* <Routes>  */}
+    {/* <Route path='/' element={<Home/>} />
     <Route path='About' element={<About/>} />
     <Route path='PropertyList' element={<PropertyList/>} />
     <Route path='PropertyType' element={<PropertyType/>} />
     <Route path='PrpertyAgents' element={<PropertyAgents/>} />
     <Route path='Testimony' element={<Testimony/>} />
-    <Route path='*' element={<Error/>} />
+     <Route path="Contact" element ={ <Contact/>} /> */}
+    <ContactNav/>
+    {/* <Route path='*' element={<Error/>} /> */}
 
     {/* <Route path='/' element={<Home/>} /> */}
 
-   </Routes>
+   {/* </Routes> */}
     </BrowserRouter>
   );
 }
