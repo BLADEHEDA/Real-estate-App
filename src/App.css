@@ -21,11 +21,6 @@ background: rgb(249, 246, 246);
  top: 0;       
   width: 100%;
 }
-Link{
-  border: solid 1px black;
-  margin: 0;
-  padding: 0;
-}
 
 @media only screen and (min-width:1px){
   .mobile{
@@ -285,13 +280,11 @@ background: white;
   }
   .options1,.options2{
     padding-left: 0em;
-    width: 10em;
-    padding: 0.5em 0.5em;
+    width: 9em;
+    padding: 0.5em 1em;
     position: fixed;
     color: #212529;
     border: solid 1px grey;
-    border:solid 1px black;
-    background: orange;
   }
   .option{
     padding-top: 0.3em;

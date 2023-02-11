@@ -19,7 +19,7 @@ function App() {
     <Route path='PropertyType' element={<PropertyType/>} />
     <Route path='PrpertyAgents' element={<PropertyAgents/>} />
     <Route path='Testimony' element={<Testimony/>} />
-    <Route path='404Error' element={<Error/>} />
+    <Route path='*' element={<Error/>} />
 
     {/* <Route path='/' element={<Home/>} /> */}
 
