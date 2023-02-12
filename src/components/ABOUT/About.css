@@ -51,11 +51,12 @@
         margin-bottom: 0.3em;
     }
     .contact0nav-content{
-        width:70%;
+        width:80%;
         margin: 0 auto;
         margin-bottom: 1.2em;
         font-size: 15px;
         text-align: center;
+        border:solid 1px orange ;
     }
     .contact-nav-info-div{
         display: block;
@@ -137,5 +138,9 @@
     .contactnav-info{
         display: flex;
         padding: 0.7em;
+    }
+    .contact0nav-content{
+        width:50%;
+        border:solid 1px orange ;
     }
 }

@@ -11,11 +11,11 @@ import phone from   "../../images/phone-16.png"
 
 const ContactNav = () => {
   return (
-    <div className='contactnav'>
+    <main className='contactnav'>
        <Navbar/>
        <Main  title="Contact" content="CONTACT"/>
        <Formbar/>
-       <div className="contactNav-div">
+       <section className="contactNav-div">
        <h1 className="contactnav-head">Contact Us </h1>
        <p className="contact0nav-content"> Eirmod sed ipsum dolor sit rebum labore
         magna erat. Tempor ut dolore lorem kasd vero
@@ -44,10 +44,36 @@ const ContactNav = () => {
                 </article>
             </section>
         </section>
+            <section className="map-div"> 
+              <article className="map-div-left"></article>
+              <article className="map-div-right">
+                <p className="mao-div-content"> </p>
+                <forem className="map-form"> 
+                  <div className="map-form-div-input">  
+                  <input className='map-form-inpput' type="text" />
+                  </div> 
 
-       </div>
+                    <div className="map-form-div-input">  
+                    <input className='map-form-inpput' type="text" />
+                    </div> 
+
+                 <div className="map-form-div-input">  
+                  <input className='map-form-inpput' type="text" />
+                  </div>
+
+                  <div className="map-form-div-input">  
+                  <textarea name="message" id="messsage" cols="30" rows="10" className='map-form-text-area'>
+
+                  </textarea>
+                  </div>
+
+                </forem>
+
+              </article>
+            </section>
+       </section>
        <Footer/>
-    </div>
+    </main>
   )
 }
 
