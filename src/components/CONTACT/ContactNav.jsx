@@ -8,6 +8,7 @@ import Main from '../SHARED/Main'
 import mappin from "../../images/map-pin.png"
 import email from   "../../images/email-10-16.png" 
 import phone from   "../../images/phone-16.png" 
+import Button from '../SHARED/Button'
 
 const ContactNav = () => {
   return (
@@ -49,24 +50,28 @@ const ContactNav = () => {
               <article className="map-div-right">
                 <p className="mao-div-content"> </p>
                 <forem className="map-form"> 
+                <div className="form-input-info-wrapp"> 
                   <div className="map-form-div-input">  
-                  <input className='map-form-inpput' type="text" />
+                  <input className='map-form-inpput' type="text" placeholder='Tour Name' />
                   </div> 
 
                     <div className="map-form-div-input">  
-                    <input className='map-form-inpput' type="text" />
-                    </div> 
+                    <input className='map-form-inpput' type="email"  placeholder='Your Email' />
+                    </div>
+                 </div> 
 
                  <div className="map-form-div-input">  
-                  <input className='map-form-inpput' type="text" />
+                  <input className='map-form-inpput' type="text"  placeholder=' Subject' />
                   </div>
 
                   <div className="map-form-div-input">  
-                  <textarea name="message" id="messsage" cols="30" rows="10" className='map-form-text-area'>
+                  <textarea name="message" id="messsage" cols="30" rows="10" className='map-form-text-area' placeholder='Message'>
 
                   </textarea>
                   </div>
-
+                  <div className="map-form-btn">  <Button  title=" Send Message"
+                           style={{ color:"white", padding:"1em 2em",borderRadius:"5px" }}
+        />  </div>
                 </forem>
 
               </article>
