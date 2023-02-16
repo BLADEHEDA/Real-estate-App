@@ -98,11 +98,9 @@
 }
    /* the styles thatfollow are the style oof the contact nav */
    .map-div{
-    /* border:solid 1px black; */
-    margin:2em 1.5em;
+    margin:2em 1.5em 6em 1.5em;
 }
 .map-form-btn{
-    /* border:solid 1px black; */
     margin-top: 0.5em;
 }
 .mao-div-content{
@@ -127,15 +125,17 @@
     font-size: 17px;
     border-radius: 3px; 
 }
-
-
-
 }
 @media only screen and (min-width:482px){
-    .contactNav-div{
-        /* border:solid 1px black; */
+    /* .contactNav-div{
+        border:solid 1px black;
         padding: 0em 4em;
-    }
+    } */
+       /* the styles thatfollow are the style oof the contact nav */
+   .map-div{
+    border:solid 1px black;
+    margin:2em 1.5em 6em 1.5em;
+}
 }
 @media only screen and (min-width:768px){
     .mainbar-left{
