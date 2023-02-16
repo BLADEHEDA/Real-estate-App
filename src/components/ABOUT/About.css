@@ -105,6 +105,24 @@
     border:solid 1px black;
     margin-top: 1em;
 }
+.mao-div-content{
+    color: #0E2E50;
+    margin-bottom: 1em;
+}
+.download{
+    color: #00B98E;
+}
+.map-form-inpput{
+    border:solid 1px #0E2E50;   
+    padding: 0.7em 0.3em;
+    width: 100%;
+    font-size: 17px;
+    margin-bottom: 0.8em;
+    border-radius: 3px;
+}
+
+
+
 }
 @media only screen and (min-width:482px){
     .contactNav-div{

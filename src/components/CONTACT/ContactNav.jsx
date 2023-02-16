@@ -48,8 +48,9 @@ const ContactNav = () => {
             <section className="map-div"> 
               <article className="map-div-left"></article>
               <article className="map-div-right">
-                <p className="mao-div-content">The contact form is currently inactive. Get a functional and working contact form with
-                 Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. Download Now. </p>
+                <p className="mao-div-content">The contact form is currently inactive. Get a functional and working 
+                contact form with  Ajax & PHP in a few minutes. Just copy and paste the files,
+               add a little code and you're done <span className="span download">  Download Now. </span> </p>
                 <form className="map-form"> 
                 <div className="form-input-info-wrapp"> 
                   <div className="map-form-div-input">  
