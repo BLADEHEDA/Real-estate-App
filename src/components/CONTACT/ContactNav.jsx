@@ -50,7 +50,7 @@ const ContactNav = () => {
               <article className="map-div-right">
                 <p className="mao-div-content">The contact form is currently inactive. Get a functional and working contact form with
                  Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. Download Now. </p>
-                <forem className="map-form"> 
+                <form className="map-form"> 
                 <div className="form-input-info-wrapp"> 
                   <div className="map-form-div-input">  
                   <input className='map-form-inpput' type="text" placeholder='Tour Name' />
@@ -71,8 +71,8 @@ const ContactNav = () => {
                   </textarea>
                   </div>
                   <div className="map-form-btn">  <Button  title=" Send Message"
-                           style={{ color:"white", padding:"1em 2em",borderRadius:"5px" }}  />  </div>
-                </forem>
+                           style={{width:"100%", color:"white", padding:"1em 2em",borderRadius:"5px" }}  />  </div>
+                </form>
 
               </article>
             </section>
