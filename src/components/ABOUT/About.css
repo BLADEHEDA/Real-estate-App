@@ -132,10 +132,7 @@
         padding: 0em 4em;
     } */
        /* the styles thatfollow are the style oof the contact nav */
-   .map-div{
-    border:solid 1px black;
-    margin:2em 1.5em 6em 1.5em;
-}
+
 }
 @media only screen and (min-width:768px){
     .mainbar-left{
@@ -165,7 +162,14 @@
         padding: 1em;
         width: 20em;
     }
-
+    .map-div{
+        border:solid 1px black;
+        margin:2em 1.5em 6em 1.5em;
+        display: flex;
+    }
+    .map-div-left,.map-div-right{
+        flex:50%;
+    }
  
 }
 @media only screen and (min-width:992px){
