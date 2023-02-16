@@ -67,7 +67,7 @@ const ContactNav = () => {
                   </div>
 
                   <div className="map-form-div-input">  
-                  <textarea name="message" id="messsage" cols="10" rows="1" className='map-form-text-area' placeholder='Message'>
+                  <textarea name="message" id="messsage" rows="5" className='map-form-text-area' placeholder='Message'>
 
                   </textarea>
                   </div>
