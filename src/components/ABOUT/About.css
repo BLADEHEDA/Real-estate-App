@@ -162,6 +162,7 @@
         padding: 1em;
         width: 20em;
     }
+       /* the styles thatfollow are the style oof the contact nav */
     .map-div{
         border:solid 1px black;
         margin:2em 1.5em 6em 1.5em;
@@ -170,7 +171,15 @@
     .map-div-left,.map-div-right{
         flex:50%;
     }
- 
+    .form-input-info-wrapp{
+        display: flex; 
+    }
+    .input1{
+        margin-right: 0.5em;
+    }
+    .input2{
+        margin-left: 0.5em;
+    }
 }
 @media only screen and (min-width:992px){
     .contact-nav-info-div{

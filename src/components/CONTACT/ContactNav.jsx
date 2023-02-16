@@ -53,11 +53,11 @@ const ContactNav = () => {
                add a little code and you're done <span className="span download">  Download Now. </span> </p>
                 <form className="map-form"> 
                 <div className="form-input-info-wrapp"> 
-                  <div className="map-form-div-input">  
+                  <div className="map-form-div-input input1">  
                   <input className='map-form-inpput' type="text" placeholder='Tour Name' />
                   </div> 
 
-                    <div className="map-form-div-input">  
+                    <div className="map-form-div-input input2">  
                     <input className='map-form-inpput' type="email"  placeholder='Your Email' />
                     </div>
                  </div> 
