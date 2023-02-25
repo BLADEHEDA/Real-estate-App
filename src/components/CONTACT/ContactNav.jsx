@@ -20,7 +20,7 @@ import Button from '../SHARED/Button'
 const ContactNav = () => {
 
   // the customisez data for the map virw
-  // const L = require("leaflet");
+//   const L = require("leaflet");
 // const map = L.map('map').setView([0, 0], 13);
 // const tileUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
 
@@ -40,26 +40,26 @@ const ContactNav = () => {
 
 // const marker = L.marker([0, 0], {icon: locationIcon}).addTo(map);
 
-  // fetch the map from the Api and configure it to render 
-    const [users, setUsers] = useState([])
+//   // fetch the map from the Api and configure it to render 
+//     const [users, setUsers] = useState([])
   
-    const fetchData = () => {
-      fetch('https://ipapi.co/json/')
-        .then(response => {
-          return response.json()
-        })
-        .then(data => {
-          setUsers(data)
-          console.log(data);
-          console.log("data is above and users os below");
-          console.log(users);
-          alert("yo")
-        })
-    }
+//     const fetchData = () => {
+//       fetch('https://ipapi.co/json/')
+//         .then(response => {
+//           return response.json()
+//         })
+//         .then(data => {
+//           setUsers(data)
+//           console.log(data);
+//           console.log("data is above and users os below");
+//           console.log(users);
+//           alert("yo")
+//         })
+//     }
   
-    useEffect(() => {
-      fetchData()
-    }, [])
+//     useEffect(() => {
+//       fetchData()
+//     }, [])
 
     // subjected to chsnges 
     // React.useEffect(() => {
@@ -122,9 +122,9 @@ const ContactNav = () => {
             </section>
         </section>
             <section className="map-div"> 
-              <article className="map-div-left">
+              <article className="map-div-left mr-3">
       {/* in here is the div  to render the information about the map  */}
-      <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false}>
+      <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false} id="map">
   <TileLayer
     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -136,7 +136,7 @@ const ContactNav = () => {
   </Marker>
 </MapContainer>
               </article>
-              <article className="map-div-right">
+              <article className="map-div-right ml-3">
                 <p className="mao-div-content">The contact form is currently inactive. Get a functional and working 
                 contact form with  Ajax & PHP in a few minutes. Just copy and paste the files,
                add a little code and you're done <span className="span download">  Download Now. </span> </p>

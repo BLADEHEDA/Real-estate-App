@@ -176,12 +176,15 @@
     }
     .form-input-info-wrapp{
         display: flex; 
+        border:solid 1px black;
     }
     .input1{
         margin-right: 0.5em;
+        flex:50%;
     }
     .input2{
         margin-left: 0.5em;
+        flex:50%;
     }
 }
 @media only screen and (min-width:992px){
