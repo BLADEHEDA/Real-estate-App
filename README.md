@@ -1,10 +1,7 @@
-# Getting Started with Create React App
+# the current version of the App can be previewed at 
+https://realestateappdemo.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+This project is till under development 
 
 ### `npm start`
 
