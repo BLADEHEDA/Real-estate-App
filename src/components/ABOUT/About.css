@@ -56,7 +56,6 @@
         margin-bottom: 1.2em;
         font-size: 15px;
         text-align: center;
-        border:solid 1px orange ;
     }
     .contact-nav-info-div{
         display: block;
@@ -125,18 +124,11 @@
     font-size: 17px;
     border-radius: 3px; 
 }
-.map-div-left{
+/* .map-div-left{
     border:solid 1px black;   
+} */
 }
-}
-@media only screen and (min-width:482px){
-    /* .contactNav-div{
-        border:solid 1px black;
-        padding: 0em 4em;
-    } */
-       /* the styles thatfollow are the style oof the contact nav */
 
-}
 @media only screen and (min-width:768px){
     .mainbar-left{
         padding-top: 12em;
@@ -167,16 +159,16 @@
     }
        /* the styles thatfollow are the style oof the contact nav */
     .map-div{
-        border:solid 1px black;
         margin:2em 1.5em 6em 1.5em;
         display: flex;
+        padding: 0em 1.5em;   
     }
     .map-div-left,.map-div-right{
         flex:50%;
     }
     .form-input-info-wrapp{
         display: flex; 
-        border:solid 1px black;
+        /* border:solid 1px black; */
     }
     .input1{
         margin-right: 0.5em;
@@ -198,6 +190,10 @@
     }
     .contact0nav-content{
         width:50%;
-        border:solid 1px orange ;
+    }
+    .map-div{
+        margin:2em 1em 6em 1em;
+        display: flex;
+        padding: 0em 5em; 
     }
 }

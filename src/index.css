@@ -2,7 +2,7 @@
 
   .leaflet-container {
     width: 100%;
-    height: 100vh;
+    height: 77vh;
   }
 @tailwind base;
 @tailwind components;
