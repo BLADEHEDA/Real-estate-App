@@ -2,6 +2,7 @@ import React from 'react'
 import Property from './Property'
 import "./Home.css"
 import appartment from "../../images/icon-apartment.png"
+import { Fade, Slide,Bounce,Flip,Zoom } from "react-awesome-reveal";
 
 const Ownership = () => {
       // setup the array of objects for your props 
@@ -55,6 +56,7 @@ const Ownership = () => {
         <p className="properties-content"> Get a variety of options as wild as the  imagination of your dream
         apppartment could be , we got you covered with first class appartments all over the world at affordable prices    </p>
       </div>
+      <Flip>
     <div className='properties'>     
       {properties.map(property=>{
           const{src,title, count} = property;
@@ -71,6 +73,7 @@ const Ownership = () => {
           )
         })   } 
         </div>
+      </Flip>
    </section>
   )
 }

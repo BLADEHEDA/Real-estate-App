@@ -3,9 +3,11 @@ import Button from '../SHARED/Button'
 import "./Home.css"
 import carousel1 from "../../images/carousel-1.jpg"
 import carousel2 from "../../images/carousel-2.jpg"
+import { Fade, Slide,Bounce,Flip,Hinge } from "react-awesome-reveal";
 
 const Mainbar = () => {
   return (
+    <Slide>
     <div className='mainbar'>
     <main className='mainbar-right' > <img src={carousel1} alt=" Carousel-1" />  </main>
    <main className='mainbar-left' >
@@ -16,9 +18,8 @@ const Mainbar = () => {
     <div className="btn-main"> <Button title=" Get Started" style={{width:"100%",borderRadius:"6px",padding:"15px",
     color:"white" }} /> </div>
    </main>
-
-
     </div>
+    </Slide>
   )
 }
 

@@ -5,6 +5,7 @@ import mappin from "../../images/map-pin.png"
 import bedroom from "../../images/icons8-occupied-bed-24.png"
 import bathing  from "../../images/icons8-bath-light-24.png"
 import ruler from  "../../images/icons8-ruler-combined-32.png"
+import { Fade, Slide,Bounce,Flip,Hinge } from "react-awesome-reveal";
 
 const Listing = () => {
     // define the object to be use 
@@ -104,6 +105,7 @@ const Listing = () => {
           </articles>
       
       </section>
+      <Bounce>
       <div className="listing-properties">
      {properties.map(property=>{
       const {img , nature,type,price,mame,location,area,bed,bath} = property;
@@ -137,6 +139,7 @@ const Listing = () => {
     
      })}
       </div>
+      </Bounce>
       <div className="list-vutton"> <Button title="Browse More Property" 
       style={{width:"100%",borderRadius:"6px",padding:"18px", color:"white" }} /> </div>
    

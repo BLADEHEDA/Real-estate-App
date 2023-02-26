@@ -2,11 +2,13 @@ import React from 'react'
 import Button from '../SHARED/Button'
 import about from "../../images/about.jpg"
 import checkmark from "../../images/checkmark-16.png"
+import { Fade, Slide,Bounce,Flip,Hinge } from "react-awesome-reveal";
 
 
 
 const Place = () => {
   return (
+    <Fade>
     <section className='place'>
         <div className="place-left">    
             <div className="place-image-div"> <img src={about} alt="about-image" className="place-image" />  </div>
@@ -31,9 +33,9 @@ const Place = () => {
                     </p>
                     <div className="place-btn"><Button style={{width:"100%",borderRadius:"6px",padding:"14px", color:"white" }} title="Read more" /> </div>
             </div>
-        </div>
-      
+        </div>   
     </section>
+    </Fade>
   )
 }
 

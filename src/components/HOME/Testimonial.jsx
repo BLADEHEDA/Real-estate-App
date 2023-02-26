@@ -7,6 +7,7 @@ import { useState } from "react";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Fade, Slide,Bounce,Flip } from "react-awesome-reveal";
 
 // let me create the testimony prop 
 const Person =(props)=>{
@@ -41,7 +42,7 @@ const Testimonial = () => {
             Tempor ut dolore lorem kasd vero ipsum sit
             eirmod sit. Ipsum diam justo sed rebum vero dolor duo. </p>
         </div> 
-
+        <Slide>
         <Splide className="person-testimonials " options={ { rewind: true } } aria-label="React Splide Example">
       <SplideSlide id='newman'>
       {/* <div className="person-testimonial">      */}
@@ -78,6 +79,7 @@ const Testimonial = () => {
                 />        
       </SplideSlide>
     </Splide>
+    </Slide>
 {/* The styles that fokkow are for the tablet and mobile sizes of he testimonial ssection */}
 
 

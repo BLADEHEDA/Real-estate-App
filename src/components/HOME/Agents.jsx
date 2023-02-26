@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Fade, Slide,Bounce,Flip,Zoom } from "react-awesome-reveal";
 const agents =[
 {
     img:require("../../images/team-1.jpg"),
@@ -42,6 +42,7 @@ const Agents = () => {
         <p className="agents-content">  Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor
         ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
      </div>
+     <Slide> 
      <div className="agents-imfo-div">
      {agents.map(agent=>{
         const {img,icon1,icon2,icon3,name,designation} =agent
@@ -59,13 +60,12 @@ const Agents = () => {
                         <p className="agent-name"> {name} </p>
                         <p className="agent-designation">  {designation} </p>
                 </div>
-                </section>  
-         
+                </section> 
         )
      })  }
      
      </div>
-      
+     </Slide>
     </div>
   )
 }
