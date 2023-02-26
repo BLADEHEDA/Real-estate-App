@@ -44,14 +44,17 @@ const Navbar = () => {
     <div>
         <nav className="navbar-mobile mobile px-5 py-3 flex justify-between Navbar">
             <nav className="left flex">
-                <div className="nav-logos"><img src={icon} alt="navlogo" className="nav-logo p-1" /> </div>
-                <nav className="nav-brand text-4xl font-black ml-2 mt-0">MaKaan </nav>
+              
+            <Link to="/">  <div className="nav-logos"><img src={icon} alt="navlogo" className="nav-logo p-1" /> </div> </Link>
+                <Link to="/">   <nav className="nav-brand text-4xl font-black ml-2 mt-0">MaKaan </nav></Link>
+                
             </nav>        
             <nav className="right">
                <div className="nav-button mt-1" onClick={toggleshow} ><img src={hamburger} alt="hamburger-btn" />  </div> 
                <ul className={`hidden-nav mt-4 pt-2 ${display}`}   >
-                <lINK to="/" className="navlinks">HOME</lINK>
-                <Link to="/About" className="navlinks">ABOUT</Link>
+               
+                <Link to="/" className="navlinks block">HOME</Link>
+                <Link to="/About" className="navlinks block">ABOUT</Link>
                 <li className="navlinks">
                   <div className="ptoptertes flex" onClick={toggleshow1}  >
                     <div className="propname" >PROPERTIES</div>
