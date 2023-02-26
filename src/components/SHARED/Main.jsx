@@ -4,9 +4,10 @@ import "../HOME/Home.css"
 import"../ABOUT/About.css"
 import carousel1 from "../../images/carousel-1.jpg"
 import carousel2 from "../../images/carousel-2.jpg"
-
+import { Fade, Slide,Bounce,Flip,Hinge } from "react-awesome-reveal";
 const Main = (props) => {
   return (
+    <Slide>
     <div className='Main mainbar'>
       <main className='mainbar-right' > <img src={carousel1} alt=" Carousel-1" />  </main>
       <main className='mainbar-left' >
@@ -18,6 +19,7 @@ const Main = (props) => {
          </div>
      </main>
     </div>
+    </Slide>
   )
 }
 

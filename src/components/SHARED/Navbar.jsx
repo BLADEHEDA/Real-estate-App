@@ -88,8 +88,8 @@ const Navbar = () => {
         </nav>
         <nav className="navbar-desktop px-5 py-3 flex justify-between desktop Navbar">
         <nav className="left flex">
-                <div className="nav-logos"><img src={icon} alt="navlogo" className="nav-logo p-1" /> </div>
-                <nav className="nav-brand text-4xl font-black ml-2 mt-0">MaKaan </nav>
+        <Link to="/"className="nav-logos"><img src={icon} alt="navlogo" className="nav-logo p-1" /> </Link>
+        <Link to="/" className="nav-brand text-4xl font-black ml-2 mt-0">MaKaan </Link>
             </nav>  
            
            <nav className="right">
