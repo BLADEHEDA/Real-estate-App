@@ -40,6 +40,8 @@ const Navbar = () => {
     setshow2(show2);
     setshow1();
   }
+
+
   return (
     <div>
         <nav className="navbar-mobile mobile px-5 py-3 flex justify-between Navbar">
@@ -53,7 +55,7 @@ const Navbar = () => {
                <div className="nav-button mt-1" onClick={toggleshow} ><img src={hamburger} alt="hamburger-btn" />  </div> 
                <ul className={`hidden-nav mt-4 pt-2 ${display}`}   >
                
-                <Link to="/" className="navlinks block">HOME</Link>
+                <Link to="/"  className="navlinks block">HOME</Link>
                 <Link to="/About" className="navlinks block">ABOUT</Link>
                 <li className="navlinks">
                   <div className="ptoptertes flex" onClick={toggleshow1}  >
@@ -91,8 +93,8 @@ const Navbar = () => {
             </nav>  
            
            <nav className="right">
-               <ul className={`shown-nav  pt-3  flex`}   >
-                <Link to="/" className="navlinks">HOME</Link>
+               <ul className={`shown-nav  pt-3  flex`}>
+                <Link   to="/"  className={`navlinks`}>HOME</Link>
                 <Link to="/About" className="navlinks">ABOUT</Link>
                 <li className="navlinks">
                   <div className="ptoptertes flex" onMouseEnter={toggleshow1} onMouseLeave={removeHover} >

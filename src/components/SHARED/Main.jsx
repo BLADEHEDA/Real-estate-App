@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { BrowserRouter,  Routes,Route,Link} from "react-router-dom";
 import "../HOME/Home.css"
 import"../ABOUT/About.css"
 import carousel1 from "../../images/carousel-1.jpg"
@@ -11,7 +12,7 @@ const Main = (props) => {
       <main className='mainbar-left' >
         <h1 className="main-title">{props.title}   </h1>
         <div className="main-contents">
-            <div className="nav-pages">HOME</div>
+        <Link to="/"><div className="nav-pages">HOME</div> </Link>   
             <div className="nav-pages">PAGES</div>
             <div className="nav-pages " id='nav-page'>{props.content} </div>
          </div>

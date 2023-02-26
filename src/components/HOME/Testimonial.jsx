@@ -42,7 +42,7 @@ const Testimonial = () => {
             eirmod sit. Ipsum diam justo sed rebum vero dolor duo. </p>
         </div> 
 
-        <Splide className="person-testimonials" options={ { rewind: true } } aria-label="React Splide Example">
+        <Splide className="person-testimonials " options={ { rewind: true } } aria-label="React Splide Example">
       <SplideSlide id='newman'>
       {/* <div className="person-testimonial">      */}
                 <Person
@@ -78,6 +78,9 @@ const Testimonial = () => {
                 />        
       </SplideSlide>
     </Splide>
+{/* The styles that fokkow are for the tablet and mobile sizes of he testimonial ssection */}
+
+
     </div>
   )
 }

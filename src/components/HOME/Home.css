@@ -567,7 +567,11 @@ width: 3em;
     .btn-main{
         width: 40%;
     }
-}
+    /* Sty;es for the testimonial section tablet size  */
+
+    .person-testimonials{
+        margin: 1em 5em;
+    }}
 /* The designs that follow are the designs for the desktop view */
 @media only screen and (min-width:992px){
     /*the design for the main bar */
@@ -594,6 +598,12 @@ width: 3em;
 .place{
     display:flex;
     margin: 2em 5em;
+}
+.place-left{
+    margin-right: 1.2em;
+}
+.place-right{
+    margin-left: 1.2em;
 }
 .listing-preview{
     display:flex;
@@ -679,10 +689,8 @@ margin: 1em 5em;
     margin:0 auto;
 }
 .person-testimonials{
-    margin: 1em 5em;
+    margin: 1em 15em;
 }
-
-
 }
 
 

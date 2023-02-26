@@ -22,6 +22,10 @@ background: rgb(249, 246, 246);
   width: 100%;
   z-index: 9999;
 }
+.active{
+  color: #b92500 ;
+  color: blue;
+}
 
 @media only screen and (min-width:1px){
   .mobile{
