@@ -125,8 +125,7 @@
     font-size: 17px;
     border-radius: 3px; 
 }
-.map-div-left{
-     
+.map-div-left{  
     margin: 0em -0.25em 1em 0em ;
 }
 }
@@ -197,5 +196,8 @@
         margin:2em 1em 6em 1em;
         display: flex;
         padding: 0em 5em; 
+    }
+    .map-div-left{  
+        margin: 0em 1em 0em 0em ;
     }
 }

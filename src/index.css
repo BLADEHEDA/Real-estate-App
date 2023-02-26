@@ -4,6 +4,16 @@
     width: 100%;
     height: 77vh;
   }
+  @media only screen and (min-width:768px){
+    .leaflet-container {
+      height: 48vh;
+    }
+  }
+  @media only screen and (min-width:992px){
+    .leaflet-container {
+      height: 70vh;    
+    }
+  }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;body {
