@@ -1,9 +1,8 @@
 # the current version of the App can be previewed at 
 https://realestateappdemo.netlify.app/
 
-This project is till under development 
 
-### `npm start`
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
